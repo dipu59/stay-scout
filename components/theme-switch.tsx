@@ -65,6 +65,7 @@ export const ThemeSwitch: FC<ThemeSwitchProps> = ({
               "pt-px",
               "px-0",
               "mx-0",
+              "active:scale-90"
             ],
             classNames?.wrapper,
           ),

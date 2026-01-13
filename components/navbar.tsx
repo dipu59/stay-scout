@@ -1,141 +1,184 @@
-import {
-  Navbar as HeroUINavbar,
-  NavbarContent,
-  NavbarMenu,
-  NavbarMenuToggle,
-  NavbarBrand,
-  NavbarItem,
-  NavbarMenuItem,
-} from "@heroui/navbar";
-import { Button } from "@heroui/button";
-import { Kbd } from "@heroui/kbd";
-import { Link } from "@heroui/link";
-import { Input } from "@heroui/input";
-import { link as linkStyles } from "@heroui/theme";
-import NextLink from "next/link";
-import clsx from "clsx";
-
-import { siteConfig } from "@/config/site";
-import { ThemeSwitch } from "@/components/theme-switch";
-import {
-  TwitterIcon,
-  GithubIcon,
-  DiscordIcon,
-  HeartFilledIcon,
-  SearchIcon,
-  Logo,
-} from "@/components/icons";
-
-export const Navbar = () => {
-  const searchInput = (
-    <Input
-      aria-label="Search"
-      classNames={{
-        inputWrapper: "bg-default-100",
-        input: "text-sm",
-      }}
-      endContent={
-        <Kbd className="hidden lg:inline-block" keys={["command"]}>
-          K
-        </Kbd>
-      }
-      labelPlacement="outside"
-      placeholder="Search..."
-      startContent={
-        <SearchIcon className="text-base text-default-400 pointer-events-none flex-shrink-0" />
-      }
-      type="search"
-    />
-  );
-
+"use client";
+import Image from "next/image";
+import React from "react";
+import { Button, Input } from "@heroui/react";
+import { Globe, MapPin, Search } from "lucide-react";
+import { ThemeSwitch } from "./theme-switch";
+// import Button from ''
+export default function Navbar() {
   return (
-    <HeroUINavbar maxWidth="xl" position="sticky">
-      <NavbarContent className="basis-1/5 sm:basis-full" justify="start">
-        <NavbarBrand as="li" className="gap-3 max-w-fit">
-          <NextLink className="flex justify-start items-center gap-1" href="/">
-            <Logo />
-            <p className="font-bold text-inherit">ACME</p>
-          </NextLink>
-        </NavbarBrand>
-        <ul className="hidden lg:flex gap-4 justify-start ml-2">
-          {siteConfig.navItems.map((item) => (
-            <NavbarItem key={item.href}>
-              <NextLink
-                className={clsx(
-                  linkStyles({ color: "foreground" }),
-                  "data-[active=true]:text-primary data-[active=true]:font-medium",
-                )}
-                color="foreground"
-                href={item.href}
-              >
-                {item.label}
-              </NextLink>
-            </NavbarItem>
-          ))}
-        </ul>
-      </NavbarContent>
-
-      <NavbarContent
-        className="hidden sm:flex basis-1/5 sm:basis-full"
-        justify="end"
-      >
-        <NavbarItem className="hidden sm:flex gap-2">
-          <Link isExternal aria-label="Twitter" href={siteConfig.links.twitter}>
-            <TwitterIcon className="text-default-500" />
-          </Link>
-          <Link isExternal aria-label="Discord" href={siteConfig.links.discord}>
-            <DiscordIcon className="text-default-500" />
-          </Link>
-          <Link isExternal aria-label="Github" href={siteConfig.links.github}>
-            <GithubIcon className="text-default-500" />
-          </Link>
-          <ThemeSwitch />
-        </NavbarItem>
-        <NavbarItem className="hidden lg:flex">{searchInput}</NavbarItem>
-        <NavbarItem className="hidden md:flex">
-          <Button
-            isExternal
-            as={Link}
-            className="text-sm font-normal text-default-600 bg-default-100"
-            href={siteConfig.links.sponsor}
-            startContent={<HeartFilledIcon className="text-danger" />}
-            variant="flat"
-          >
-            Sponsor
-          </Button>
-        </NavbarItem>
-      </NavbarContent>
-
-      <NavbarContent className="sm:hidden basis-1 pl-4" justify="end">
-        <Link isExternal aria-label="Github" href={siteConfig.links.github}>
-          <GithubIcon className="text-default-500" />
-        </Link>
-        <ThemeSwitch />
-        <NavbarMenuToggle />
-      </NavbarContent>
-
-      <NavbarMenu>
-        {searchInput}
-        <div className="mx-4 mt-2 flex flex-col gap-2">
-          {siteConfig.navMenuItems.map((item, index) => (
-            <NavbarMenuItem key={`${item}-${index}`}>
-              <Link
-                color={
-                  index === 2
-                    ? "primary"
-                    : index === siteConfig.navMenuItems.length - 1
-                      ? "danger"
-                      : "foreground"
-                }
-                href="#"
-                size="lg"
-              >
-                {item.label}
-              </Link>
-            </NavbarMenuItem>
-          ))}
+    <nav className="max-w-[1300px] mx-auto border-b-1 pb-4 lg:pb-0 dark:border-b-gray-700 border-b-[#DCDCDC]">
+      <div className="flex  justify-between items-center md:mt-[38px] mt-[28px] lg:mt-[46px] mb-[10px] md:mb-[20px] lg:mb-[23px] gap-6 md:gap-0 px-3 ">
+        <div className="flex justify-center items-center">
+          <Image
+            src={"/logo.png"}
+            height={200}
+            width={200}
+            quality={100}
+            alt="Logo"
+            className="md:w-[166px]  w-[150px] "
+          />
         </div>
-      </NavbarMenu>
-    </HeroUINavbar>
+
+        <form
+          className="
+        w-full max-w-[625px]
+        h-[52px]
+        lg:flex hidden items-center
+        rounded-full
+        border border-gray-200 dark:border-gray-700
+        bg-white dark:bg-gray-900
+        px-4
+        shadow-sm
+        transition-all duration-300
+        focus-within:ring-2 focus-within:ring-blue-500/40
+        focus-within:shadow-md
+        
+      "
+        >
+          {/* Main Search */}
+          <input
+            type="text"
+            placeholder="restaurant, hotel, service..."
+            className="
+          flex-1
+          text-sm
+          text-gray-800 dark:text-gray-100
+          placeholder-gray-400 dark:placeholder-gray-500
+          bg-transparent
+          outline-none
+        "
+          />
+
+          {/* Divider */}
+          <span className="mx-3 h-5 w-px bg-gray-300 dark:bg-gray-700" />
+
+          {/* Location */}
+          <div className="flex items-center gap-1 w-[140px]">
+            <MapPin size={16} className="text-gray-400 dark:text-gray-500" />
+            <input
+              type="text"
+              placeholder="Singapour..."
+              className="
+            w-full
+            text-sm
+            text-gray-800 dark:text-gray-100
+            placeholder-gray-400 dark:placeholder-gray-500
+            bg-transparent
+            outline-none
+          "
+            />
+          </div>
+
+          {/* Button */}
+          <button
+            className="
+          ml-3
+          w-9 h-9
+          rounded-full
+          bg-blue-600
+          flex items-center justify-center
+          transition-all duration-300
+          hover:bg-blue-700
+          active:scale-95
+          cursor-pointer
+        "
+            type="submit"
+          >
+            <Search size={18} className="text-white" />
+          </button>
+        </form>
+
+        <div>
+          <div className="flex gap-2 md:gap-4 items-center justify-center -mt-4 md:-mt-0 ">
+            <ThemeSwitch />
+            <Globe className="text-[#595959] hidden md:block " />
+            <Button
+              className="
+    bg-[#1E1E1E] text-white rounded-full
+    px-3 py-1.5 text-xs
+    sm:px-4 sm:py-2 sm:text-sm
+    md:px-6 md:py-2.5 md:text-base
+  "
+            >
+              MyFeedback for business
+            </Button>
+          </div>
+        </div>
+
+        {/* For Mobile and Tabletresponsive */}
+      </div>
+      <div className="px-3">
+        {" "}
+        <form
+          className="
+        w-full max-w-[625px] mx-auto 
+        h-[52px]
+        flex lg:hidden items-center
+        rounded-full
+        border border-gray-200 dark:border-gray-700
+        bg-white dark:bg-gray-900
+        px-4
+        shadow-sm
+        transition-all duration-300
+        focus-within:ring-2 focus-within:ring-blue-500/40
+        focus-within:shadow-md
+        
+      "
+        >
+          {/* Main Search */}
+          <input
+            type="text"
+            placeholder="restaurant, hotel, service..."
+            className="
+          flex-1
+          text-sm
+          text-gray-800 dark:text-gray-100
+          placeholder-gray-400 dark:placeholder-gray-500
+          bg-transparent
+          outline-none
+        "
+          />
+
+          {/* Divider */}
+          <span className="mx-3 h-5 w-px bg-gray-300 dark:bg-gray-700" />
+
+          {/* Location */}
+          <div className="flex items-center gap-1 w-[140px]">
+            <MapPin size={16} className="text-gray-400 dark:text-gray-500" />
+            <input
+              type="text"
+              placeholder="Singapour..."
+              className="
+            w-full
+            text-sm
+            text-gray-800 dark:text-gray-100
+            placeholder-gray-400 dark:placeholder-gray-500
+            bg-transparent
+            outline-none
+          "
+            />
+          </div>
+
+          {/* Button */}
+          <button
+            className="
+          ml-3
+          min-w-[32px] min-h-[32px] h-9 w-9
+          rounded-full
+          bg-blue-600
+          flex items-center justify-center
+          transition-all duration-300
+          hover:bg-blue-700
+          active:scale-95
+          cursor-pointer
+        "
+            type="submit"
+          >
+            <Search className="text-white size-4 md:size-6" />
+          </button>
+        </form>
+      </div>
+    </nav>
   );
-};
+}
