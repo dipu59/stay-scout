@@ -1,6 +1,5 @@
 import "@/styles/globals.css";
 import { Metadata, Viewport } from "next";
-import { Link } from "@heroui/link";
 import clsx from "clsx";
 
 import { Providers } from "./providers";
@@ -8,6 +7,7 @@ import { Providers } from "./providers";
 import { siteConfig } from "@/config/site";
 import { fontSans } from "@/config/fonts";
 import Navbar from "@/components/navbar";
+import NavLinks from "@/components/navLinks";
 
 export const metadata: Metadata = {
   title: {
@@ -35,9 +35,15 @@ export default function RootLayout({
   return (
     <html suppressHydrationWarning lang="en">
       <head />
-      <body className={clsx("", fontSans.variable)}>
+      <body
+        className={clsx(
+          " bg-white dark:bg-[#010409]",
+          fontSans.variable
+        )}
+      >
         <Providers themeProps={{ attribute: "class", defaultTheme: "light" }}>
           <Navbar />
+          <NavLinks/>
           <main className="">{children}</main>
         </Providers>
       </body>

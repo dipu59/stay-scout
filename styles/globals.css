@@ -7,4 +7,5 @@
 @theme {
     --font-sans: "font", sans-serif;
     --font-mono: "monospace", monospace;
+    --font-roboto: "Roboto", sans-serif;
 }

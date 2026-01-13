@@ -1,14 +1,15 @@
 "use client";
 import Image from "next/image";
 import React from "react";
-import { Button, Input } from "@heroui/react";
+import { Button } from "@heroui/react";
 import { Globe, MapPin, Search } from "lucide-react";
 import { ThemeSwitch } from "./theme-switch";
-// import Button from ''
+import { nav } from "framer-motion/client";
+
 export default function Navbar() {
   return (
-    <nav className="max-w-[1300px] mx-auto border-b-1 pb-4 lg:pb-0 dark:border-b-gray-700 border-b-[#DCDCDC]">
-      <div className="flex  justify-between items-center md:mt-[38px] mt-[28px] lg:mt-[46px] mb-[10px] md:mb-[20px] lg:mb-[23px] gap-6 md:gap-0 px-3 ">
+    <nav className="max-w-[1300px] mx-auto border-b-1 md:pt-[10px] pt-[28px] pb-4 lg:pb-0 dark:border-b-gray-700 border-b-[#DCDCDC]">
+      <div className="flex  justify-between items-center  lg:mt-[46px] mb-[10px] md:mb-[20px] lg:mb-[23px] gap-6 md:gap-0 px-3 ">
         <div className="flex justify-center items-center">
           <Image
             src={"/logo.png"}
