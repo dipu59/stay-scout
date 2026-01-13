@@ -1,53 +1,87 @@
-# Next.js & HeroUI Template
+# StayScout 
+**Discover stays. Travel smarter.**
 
-This is a template for creating applications using Next.js 14 (app directory) and HeroUI (v2).
+StayScout is a modern travel discovery web application where users can explore top-rated restaurants, hotels, and places with a clean UI, smooth interactions, and performance-focused architecture.
 
-[Try it on CodeSandbox](https://githubbox.com/heroui-inc/heroui/next-app-template)
+This project is built as a **real-world frontend + backend-ready portfolio project**, following industry best practices.
 
-## Technologies Used
+---
 
-- [Next.js 14](https://nextjs.org/docs/getting-started)
-- [HeroUI v2](https://heroui.com/)
-- [Tailwind CSS](https://tailwindcss.com/)
-- [Tailwind Variants](https://tailwind-variants.org)
-- [TypeScript](https://www.typescriptlang.org/)
-- [Framer Motion](https://www.framer.com/motion/)
-- [next-themes](https://github.com/pacocoursey/next-themes)
+##  Live Demo
+🔗 https://stayscout.vercel.app
 
-## How to Use
+---
 
-### Use the template with create-next-app
+## 📌 Key Features
+-  Browse top-rated restaurants & stays
+-  Smooth carousel/slider experience (Swiper.js)
+-  Ratings & reviews UI
+-  Fully responsive (mobile-first)
+-  Optimized images & SVG icon system
+-  Clean, modern UI inspired by real-world travel platforms
 
-To create a new project based on this template using `create-next-app`, run the following command:
+---
 
-```bash
-npx create-next-app -e https://github.com/heroui-inc/next-app-template
-```
+## 🛠️ Tech Stack
+**Frontend**
+- React / Next.js  
+- Tailwind CSS
+- HeroUI / NextUI
+- Swiper.js (carousel)
+- SVG icons as React components (optimized)
+  
 
-### Install dependencies
+**Backend (planned / optional)**
+- Node.js + Express  
+- PostgreSQL  
+- Drizzle ORM  
 
-You can use one of them `npm`, `yarn`, `pnpm`, `bun`, Example using `npm`:
+**Tools**
+- Figma (UI reference & assets)
+- Git & GitHub
+- Vercel / Netlify (deployment)
 
-```bash
-npm install
-```
+---
 
-### Run the development server
+## ⚙️ Performance & Optimization
+- ✅ SVG icons used as **React components** (no extra network requests)
+- ✅ Images exported as **JPEG/WebP** for faster load
+- ✅ Component-based architecture
+- ✅ Reusable UI components
+- ✅ Clean folder structure
 
-```bash
-npm run dev
-```
+---
 
-### Setup pnpm (optional)
 
-If you are using `pnpm`, you need to add the following code to your `.npmrc` file:
+---
 
-```bash
-public-hoist-pattern[]=*@heroui/*
-```
+##  What This Project Demonstrates
+- Strong understanding of **modern frontend architecture**
+- UI/UX sense aligned with real-world products
+- Performance-aware development mindset
+- Scalable component design
+- Clean and readable code
 
-After modifying the `.npmrc` file, you need to run `pnpm install` again to ensure that the dependencies are installed correctly.
+---
 
-## License
+##  Future Improvements
+-  Authentication (Login / Signup)
+-  Map integration (Google Maps)
+-  Advanced search & filters
+-  Wishlist / favorites
+-  Backend API integration
 
-Licensed under the [MIT license](https://github.com/heroui-inc/next-app-template/blob/main/LICENSE).
+---
+
+##  Author
+**Dipu**  
+Frontend Developer | React | Next.js  
+
+-  Portfolio: https://dipubiswas.vercel.app 
+-  GitHub: https://github.com/dipu59
+
+---
+
+## ⭐ Feedback
+If you like this project or find it useful, feel free to ⭐ the repo!
+
