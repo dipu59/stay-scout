@@ -16,3 +16,88 @@ export const NavLink = [
   {path: Bars, name:"Bars"},
   {path: Gyms, name:"Gyms"},
 ]
+
+
+// data/findCard.ts
+export const findCards = [
+  {
+    id: 1,
+    title: "Bottega",
+    images: [
+      "/findCard/image1.jpg",
+      "/findCard/image2.jpg",
+      "/findCard/image3.jpg",
+      "/findCard/image4.jpg",
+    ],
+  },
+  {
+    id: 2,
+    title: "Bottega",
+    images: [
+      "/findCard/image2.jpg",
+      "/findCard/image3.jpg",
+      "/findCard/image4.jpg",
+      "/findCard/image1.jpg",
+    ],
+  },
+  {
+    id: 3,
+    title: "Bottega",
+    images: [
+      "/findCard/image3.jpg",
+      "/findCard/image4.jpg",
+      "/findCard/image1.jpg",
+      "/findCard/image2.jpg",
+    ],
+  },
+  {
+    id: 4,
+    title: "Bottega",
+    images: [
+      "/findCard/image4.jpg",
+      "/findCard/image1.jpg",
+      "/findCard/image2.jpg",
+      "/findCard/image3.jpg",
+    ],
+  },
+  {
+    id: 5,
+    title: "Bottega",
+    images: [
+      "/findCard/image4.jpg",
+      "/findCard/image1.jpg",
+      "/findCard/image2.jpg",
+      "/findCard/image3.jpg",
+    ],
+  },
+  {
+    id: 6,
+    title: "Bottega",
+    images: [
+      "/findCard/image4.jpg",
+      "/findCard/image1.jpg",
+      "/findCard/image2.jpg",
+      "/findCard/image3.jpg",
+    ],
+  },
+  {
+    id: 7,
+    title: "Bottega",
+    images: [
+      "/findCard/image4.jpg",
+      "/findCard/image1.jpg",
+      "/findCard/image2.jpg",
+      "/findCard/image3.jpg",
+    ],
+  },
+  {
+    id: 8,
+    title: "Bottega",
+    images: [
+      "/findCard/image4.jpg",
+      "/findCard/image1.jpg",
+      "/findCard/image2.jpg",
+      "/findCard/image3.jpg",
+    ],
+  },
+];
