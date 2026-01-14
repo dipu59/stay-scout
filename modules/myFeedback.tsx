@@ -22,7 +22,7 @@ export default function MyFeedback() {
               px-3 py-1.5 text-xs
               sm:px-4 sm:py-2 sm:text-sm
               md:px-6 md:py-4 md:text-base
-              mt-[30px] mb-[10px] md:mb-0 md:mt-[40px] lg:mt-[60px]
+              mt-[30px] mb-[20px] md:mb-0 md:mt-[40px] lg:mt-[60px]
             "
             >
               Explore MyFeedback business
