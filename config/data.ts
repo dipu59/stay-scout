@@ -119,8 +119,9 @@ export const LatestCard = [
     path: "/latestTrand/image1.jpg",
     title: "Bella Italia",
     description:
-      "Authentic Italian cuisine with handmade pasta and traditional recipes. A cozy atmosphere perfect for romantic dinners.",
-    rating: "4.8",
+      "Authentic Italian cuisine with handmade pasta and traditional recipes. A cozy atmosphere perfect.",
+    rating: "5.0",
+    ratings: 5,
     review: "312",
   },
 
@@ -129,7 +130,8 @@ export const LatestCard = [
     title: "Little Shucker",
     description:
       "Fresh oyster bar featuring daily catches and classic seafood preparations. Ideal for casual gatherings.",
-    rating: "4.6",
+    rating: "3.6",
+    ratings: 3,
     review: "189",
   },
   {
@@ -137,7 +139,8 @@ export const LatestCard = [
     title: "Marafuku Ramen",
     description:
       "Specialty ramen house with rich broths and premium toppings. A must-visit for authentic Japanese flavors.",
-    rating: "4.7",
+    rating: "5",
+    ratings: 5,
     review: "276",
   },
   {
@@ -145,7 +148,8 @@ export const LatestCard = [
     title: "Bottega",
     description:
       "Modern Italian dining with contemporary design and seasonal menu. Great for special occasions.",
-    rating: "4.5",
+    rating: "3.5",
+    ratings: 3,
     review: "243",
   },
   {
@@ -153,7 +157,8 @@ export const LatestCard = [
     title: "Arabia Nights",
     description:
       "Middle Eastern cuisine with vibrant spices and traditional dishes. Warm hospitality and lively ambiance.",
-    rating: "4.4",
+    rating: "5",
+    ratings: 5,
     review: "198",
   },
   {
@@ -161,7 +166,8 @@ export const LatestCard = [
     title: "Lokma",
     description:
       "Turkish delicacies and Mediterranean flavors in an elegant setting. Known for exceptional service.",
-    rating: "4.3",
+    rating: "5",
+    ratings: 5,
     review: "156",
   },
   {
@@ -170,6 +176,7 @@ export const LatestCard = [
     description:
       "Cozy pub atmosphere with comfort food and craft beverages. Perfect for relaxed evenings with friends.",
     rating: "4.2",
+    ratings: 4,
     review: "127",
   },
   {
@@ -177,7 +184,8 @@ export const LatestCard = [
     title: "Starbelly",
     description:
       "Farm-to-table restaurant emphasizing fresh, local ingredients. Creative seasonal menus.",
-    rating: "4.6",
+    rating: "5",
+    ratings: 5,
     review: "267",
   },
   {
@@ -186,6 +194,7 @@ export const LatestCard = [
     description:
       "Japanese fusion cuisine combining traditional and modern techniques. Elegant presentation and refined taste.",
     rating: "4.7",
+    ratings: 4,
     review: "298",
   },
   {
@@ -193,7 +202,8 @@ export const LatestCard = [
     title: "Ngalley",
     description:
       "Contemporary African cuisine with bold flavors and artistic plating. Unique dining experience.",
-    rating: "4.4",
+    rating: "3.4",
+    ratings: 3,
     review: "142",
   },
   {
@@ -201,7 +211,8 @@ export const LatestCard = [
     title: "diogonal",
     description:
       "Minimalist design with innovative small plates and cocktails. Perfect for adventurous palates.",
-    rating: "4.5",
+    rating: "5",
+    ratings: 5,
     review: "185",
   },
   {
@@ -210,6 +221,7 @@ export const LatestCard = [
     description:
       "Pan-Asian restaurant featuring diverse regional cuisines and modern interpretation of classics.",
     rating: "4.3",
+    ratings: 2,
     review: "164",
   },
 ];
