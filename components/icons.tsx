@@ -371,3 +371,4 @@ export const Stars = (props: any) => (
     />
   </svg>
 );
+

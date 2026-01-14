@@ -3,7 +3,7 @@ import React from "react";
 
 export default function NavLinks() {
   return (
-    <div className="max-w-[1340px] mx-auto mt-[22px] md:mt-[30px] lg:mt-[42px]">
+    <div className="max-w-[1310px] mx-auto mt-[22px] md:mt-[30px] lg:mt-[42px]">
       <div
         className="
           flex flex-nowrap
@@ -24,7 +24,7 @@ export default function NavLinks() {
               min-w-[48px]
             "
           >
-            <items.path className="size-[16px] md:size-6" />
+            <items.path className="size-[20px] md:size-6" />
 
             <p className="md:text-[12px] lg:text-[15px] text-[10px] text-[#AFAFAF] font-roboto whitespace-nowrap">
               {items.name}
