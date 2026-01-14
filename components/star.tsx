@@ -8,6 +8,7 @@ export function RatingStars({ rating }: { rating: number }) {
       {Array.from({ length: 5 }).map((_, i) => (
         <Stars
           key={i}
+          
           className={
             i < fullStars
               ? "text-[#E8A641]" // filled star

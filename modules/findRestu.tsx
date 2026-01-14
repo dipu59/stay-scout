@@ -101,7 +101,7 @@ export default function FindBestSection() {
                       {Array.from({ length: 5 }).map((_, i) => (
                         <Stars
                           key={i}
-                          size={12}
+                          
                           className="fill-orange-400 text-orange-400"
                         />
                       ))}
