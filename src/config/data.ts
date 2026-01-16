@@ -225,3 +225,129 @@ export const LatestCard = [
     review: "164",
   },
 ];
+
+
+// Recent Activities Data
+export const SRecentActivities = [
+  {
+    username: "Leslie Sakho",
+    location: "Toronto, Canada",
+    star: 5,
+    date: "09/11/2023",
+    desc1:
+      "Amazing experience overall. The restaurant ambiance was calm and welcoming, perfect for a relaxed dinner.",
+    desc2:
+      "Staff were very attentive and the food quality was outstanding. Would definitely recommend to others.",
+    path: [
+      "/review/group1/image1.jpg",
+      "/review/group1/image2.jpg",
+      "/review/group1/image3.jpg",
+    ],
+  },
+  {
+    username: "Arjun Mehta",
+    location: "Mumbai, India",
+    star: 4,
+    date: "21/12/2023",
+    desc1:
+      "Great place for family dinners. The menu offers a wide variety and the pricing feels reasonable.",
+    desc2:
+      "Service was slightly slow during rush hours, but the staff handled it professionally.",
+    path: [
+      "/review/group2/image1.jpg",
+      "/review/group2/image2.jpg",
+      "/review/group2/image3.jpg",
+    ],
+  },
+  {
+    username: "Sophia Martinez",
+    location: "Barcelona, Spain",
+    star: 5,
+    date: "04/01/2024",
+    desc1:
+      "Absolutely loved this place. The environment was clean, modern, and very well maintained.",
+    desc2:
+      "Desserts were exceptional and the presentation was beautiful. A must-visit spot.",
+    path: [
+      "/review/group3/image1.jpg",
+      "/review/group3/image2.jpg",
+      "/review/group3/image3.jpg",
+    ],
+  },
+  {
+    username: "Daniel Thompson",
+    location: "London, UK",
+    star: 3,
+    date: "15/01/2024",
+    desc1:
+      "Decent experience overall. The food was good but didn’t stand out compared to nearby options.",
+    desc2:
+      "Service could be faster, especially during peak times, but still worth trying once.",
+    path: [
+      "/review/group1/image1.jpg",
+      "/review/group1/image2.jpg",
+      "/review/group1/image3.jpg",
+    ],
+  },
+  {
+    username: "Emily Carter",
+    location: "New York, USA",
+    star: 5,
+    date: "28/01/2024",
+    desc1:
+      "Fantastic experience from start to finish. The staff were friendly and very professional.",
+    desc2:
+      "Loved the attention to detail in both food and service. Will definitely return.",
+    path: [
+      "/review/group2/image1.jpg",
+      "/review/group2/image2.jpg",
+      "/review/group2/image3.jpg",
+    ],
+  },
+  {
+    username: "Rahul Verma",
+    location: "Bangalore, India",
+    star: 4,
+    date: "02/02/2024",
+    desc1:
+      "Nice ambiance and comfortable seating. The place feels suitable for both work meetings and casual visits.",
+    desc2:
+      "Food was fresh and flavorful, though the menu could include more vegetarian options.",
+    path: [
+      "/review/group3/image1.jpg",
+      "/review/group3/image2.jpg",
+      "/review/group3/image3.jpg",
+    ],
+  },
+  {
+    username: "Isabella Rossi",
+    location: "Milan, Italy",
+    star: 5,
+    date: "10/02/2024",
+    desc1:
+      "One of the best dining experiences I’ve had recently. Everything felt premium and well organized.",
+    desc2:
+      "Staff recommendations were spot on. Truly enjoyed every dish served.",
+   path: [
+      "/review/group2/image1.jpg",
+      "/review/group2/image2.jpg",
+      "/review/group2/image3.jpg",
+    ],
+  },
+  {
+    username: "Ahmed Hassan",
+    location: "Dubai, UAE",
+    star: 4,
+    date: "18/02/2024",
+    desc1:
+      "Very good experience overall. The interior design is modern and gives a luxury feel.",
+    desc2:
+      "Food portions were generous and the quality matched the pricing. Would visit again.",
+    path: [
+      "/review/group3/image1.jpg",
+      "/review/group3/image2.jpg",
+      "/review/group3/image3.jpg",
+    ],
+  },
+];
+
