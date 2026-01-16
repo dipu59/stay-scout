@@ -16,9 +16,9 @@ export default function FindBestSection() {
 
   return (
     <section className="px-3 md:px-6 lg:px-0 mt-[40px] md:mt-[50px] lg:mt-[60px]">
-      <div className="max-w-[1300px] mx-auto rounded-xl bg-[#1677BD] dark:bg-[#0F3D63] px-4 md:px-6 py-5 md:py-10">
+      <div className="max-w-[1300px] mx-auto rounded-xl bg-[#1677BD] dark:bg-slate-950 px-4 md:px-6 py-5 md:py-10 dark:border-[0.7px] dark:border-slate-700 ">
         {/* Title */}
-        <h2 className="text-white md:text-[32px] text-[18px] font-medium mb-4">
+        <h2 className="text-white dark:text-gray-200 md:text-[32px] text-[18px] font-medium mb-4">
           Find the best restaurant ratings below
         </h2>
 
@@ -60,11 +60,6 @@ export default function FindBestSection() {
                     }
                   >
                     <Swiper
-                      modules={[Autoplay]}
-                      autoplay={{
-                        delay: 3500,
-                        disableOnInteraction: false,
-                      }}
                       onSwiper={(swiper) => (imageSwiperRef.current = swiper)}
                       loop
                       className="h-full"
@@ -87,7 +82,7 @@ export default function FindBestSection() {
 
                   {/* Content */}
                   <div className="p-3">
-                    <h3 className="md:text-[19px] text-[17px] font-roboto md:font-semibold font-medium text-[#232323] dark:text-white">
+                    <h3 className="md:text-[19px] text-[17px] font-roboto md:font-semibold font-semibold text-[#232323] dark:text-white">
                       {card.title}
                     </h3>
 
@@ -101,7 +96,7 @@ export default function FindBestSection() {
                       {Array.from({ length: 5 }).map((_, i) => (
                         <Stars
                           key={i}
-                          className="fill-orange-400 text-orange-400"
+                          className="fill-[#E8A641] text-[#E8A641]"
                         />
                       ))}
                       <span className="text-[11px] text-gray-500 dark:text-gray-400 ml-1">

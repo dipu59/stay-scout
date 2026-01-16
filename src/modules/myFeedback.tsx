@@ -5,8 +5,8 @@ import React from "react";
 export default function MyFeedback() {
   return (
     <section className="bg-[#F2F2F2] dark:bg-[#141A23]  mt-[60px] md:mt-[84px]">
-      <div className="max-w-[1140px] w-full mx-auto flex flex-col md:flex-row items-center justify-between py-[26px]">
-        <div>
+      <div className="max-w-[1140px] w-full mx-auto flex flex-col md:flex-row items-center justify-between py-[26px] px-3">
+        <div className="w-full">
           <h1 className="font-lexend font-semibold lg:font-extrabold text-xl md:text-[22px] md:leading-tight lg:leading-[1.2] lg:text-[26px] text-[#1E1E1E] dark:text-gray-200 max-w-[463px] px-4 md:px-2 lg:px-0 ">
             MyFeedback for Business has resources to help you plan, start, grow,
             and advertise your small business
@@ -29,11 +29,11 @@ export default function MyFeedback() {
             </Button>
           </div>
         </div>
-        <div>
+        <div className="w-full md:w-[95%]  xl:w-full ">
           <Image
             height={476}
             width={612}
-            className="rounded-4xl px-4 md:px-0 md:pr-2 lg:pr-0"
+            className="rounded-4xl object-cover px-4 md:px-0 md:pr-2 lg:pr-0"
             src="/myfeetback/image1.jpg"
             alt=""
           />

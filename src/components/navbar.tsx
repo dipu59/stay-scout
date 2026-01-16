@@ -9,8 +9,8 @@ import Link from "next/link";
 
 export default function Navbar() {
   return (
-    <nav className="max-w-[1300px] mx-auto border-b-1 md:pt-[10px] pt-[28px] pb-4 lg:pb-0 dark:border-b-gray-700 border-b-[#DCDCDC]">
-      <div className="flex  justify-between items-center  lg:mt-[46px] mb-[10px] md:mb-[20px] lg:mb-[23px] gap-6 md:gap-0 px-3 ">
+    <nav className="max-w-[1300px] mx-auto border-b-1 md:pt-[30px] pt-[28px] pb-4 lg:pb-0 dark:border-b-gray-700 border-b-[#DCDCDC] ">
+      <div className="flex  justify-between items-center  lg:mt-[0px] mb-[10px] md:mb-[20px] lg:mb-[23px] gap-6 md:gap-0 px-3 ">
         <div className="flex justify-center items-center">
           <Link href="/">
             {" "}

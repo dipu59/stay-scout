@@ -24,7 +24,7 @@ export default function NavLinks() {
               min-w-[48px]
             "
           >
-            <items.path className="size-[20px] md:size-6" />
+            <items.path className="size-[20px] md:size-[21px]" />
 
             <p className="md:text-[12px] lg:text-[15px] text-[10px] text-[#AFAFAF] font-roboto whitespace-nowrap">
               {items.name}

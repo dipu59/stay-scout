@@ -19,9 +19,9 @@ export default function LatestTrands() {
         {LatestCard.map((items, index) => (
           <div
             key={index}
-            className="max-w-[319px] mx-auto overflow-hidden hover:-translate-y-5 hover:scale-105 hover:delay-200 cursor-pointer transition-all duration-300  bg-[#F8F8F8] dark:bg-[#0d1017] rounded-[14px] dark:hover:shadow-blue-900 border border-[#E6E6E6] hover:border-[#cfcfcf] dark:border-[#40434a]
+            className="max-w-[319px] mx-auto overflow-hidden hover:-translate-y-1 hover:scale-[1] hover:delay-150 cursor-pointer transition-all duration-300  bg-[#F8F8F8] dark:bg-[#0d1017] rounded-[14px] dark:hover:shadow-blue-950 border border-[#E6E6E6] hover:border-[#cfcfcf] dark:border-[#40434a]
     dark:hover:shadow-[0_20px_60px_-15px_rgba(56,189,248,0.45)]
-    dark:hover:border-[#38bdf8]"
+    dark:hover:border-[#2ea0d198] group"
           >
             <div className="max-w-[319px] overflow-hidden max-h-[213px] rounded-[14px]">
               <img
@@ -34,7 +34,7 @@ export default function LatestTrands() {
               <h2 className="font-roboto font-medium md:font-semibold text-[#232323] text-lg md:text-xl lg:text-[22px] dark:text-[#feffff] ">
                 {items.title}
               </h2>
-              <p className="font-roboto text-sm lg:text-base text-[#8F8F8F] mt-[4px] md:mt-[6px] mb-[15px] md:mb-[27px] line-clamp-2 lg:line-clamp-3 ">
+              <p className="font-roboto text-sm lg:text-base text-[#8F8F8F] mt-[4px] md:mt-[6px] mb-[15px] md:mb-[27px] line-clamp-2 lg:line-clamp-3 dark:group-hover:text-[#b6aeae] transition-all delay-150 duration-300 ">
                 {items.description}
               </p>
               <div className="flex gap-[3px] md:gap-[10px] pb-[19px] ">

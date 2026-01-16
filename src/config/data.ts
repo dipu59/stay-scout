@@ -75,17 +75,17 @@ export const findCards = [
     id: 5,
     title: "Bottega",
     images: [
-      "/findCard/image4.jpg",
       "/findCard/image1.jpg",
       "/findCard/image2.jpg",
-      "/findCard/image3.jpg",
+      "/findCard/image4.jpg",
+      "/findCard/image2.jpg",
     ],
   },
   {
     id: 6,
     title: "Bottega",
     images: [
-      "/findCard/image4.jpg",
+      "/findCard/image2.jpg",
       "/findCard/image1.jpg",
       "/findCard/image2.jpg",
       "/findCard/image3.jpg",
@@ -95,10 +95,10 @@ export const findCards = [
     id: 7,
     title: "Bottega",
     images: [
-      "/findCard/image4.jpg",
-      "/findCard/image1.jpg",
-      "/findCard/image2.jpg",
       "/findCard/image3.jpg",
+      "/findCard/image4.jpg",
+      "/findCard/image2.jpg",
+      "/findCard/image1.jpg",
     ],
   },
   {
@@ -106,8 +106,8 @@ export const findCards = [
     title: "Bottega",
     images: [
       "/findCard/image4.jpg",
-      "/findCard/image1.jpg",
       "/findCard/image2.jpg",
+      "/findCard/image1.jpg",
       "/findCard/image3.jpg",
     ],
   },
