@@ -1,15 +1,12 @@
 "use client";
-import { Stars } from "@/components/icons";
 import { useRouter } from "next/navigation";
-
-import { RatingStars } from "@/components/star";
-import { LatestCard } from "@/config/data";
+import { RatingStars } from "@/src/components/star";
+import { LatestCard } from "@/src/config/data";
 import { Button } from "@heroui/button";
-import Link from "next/link";
 import React from "react";
 
 export default function LatestTrands() {
-    const router = useRouter();
+  const router = useRouter();
 
   return (
     <section className="max-w-[1300px] mx-auto mt-[50px] md:mt-[70px] lg:mt-[102px]">
@@ -42,7 +39,7 @@ export default function LatestTrands() {
               </p>
               <div className="flex gap-[3px] md:gap-[10px] pb-[19px] ">
                 <div className="flex ">
-                  <RatingStars  rating={items.ratings ?? 0} />
+                  <RatingStars rating={items.ratings ?? 0} />
                 </div>
                 <div>
                   <p className="font-roboto text-[10px] md:text-sm font-semibold text-[#8F8F8F] ">
@@ -66,7 +63,6 @@ export default function LatestTrands() {
           onPress={() => router.push("/allrestaurants")}
           className="text-center rounded-full bg-[#1a86d3] hover:bg-[#1677BD] text-lg text-white"
           variant="shadow"
-          
           size="lg"
         >
           Show more

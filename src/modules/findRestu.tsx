@@ -7,8 +7,8 @@ import "swiper/css";
 import "swiper/css/pagination";
 
 import { ChevronLeft, ChevronRight, Star } from "lucide-react";
-import { findCards } from "@/config/data";
-import { Stars } from "@/components/icons";
+import { findCards } from "@/src/config/data";
+import { Stars } from "@/src/components/icons";
 import { useRef } from "react";
 
 export default function FindBestSection() {
@@ -101,7 +101,6 @@ export default function FindBestSection() {
                       {Array.from({ length: 5 }).map((_, i) => (
                         <Stars
                           key={i}
-                          
                           className="fill-orange-400 text-orange-400"
                         />
                       ))}

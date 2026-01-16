@@ -1,4 +1,4 @@
-import { NavLink } from "@/config/data";
+import { NavLink } from "@/src/config/data";
 import React from "react";
 
 export default function NavLinks() {

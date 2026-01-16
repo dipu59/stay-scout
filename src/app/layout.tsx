@@ -4,10 +4,11 @@ import clsx from "clsx";
 
 import { Providers } from "./providers";
 
-import { siteConfig } from "@/config/site";
-import { fontSans } from "@/config/fonts";
-import Navbar from "@/components/navbar";
-import NavLinks from "@/components/navLinks";
+import { siteConfig } from "@/src/config/site";
+import { fontSans } from "@/src/config/fonts";
+import Navbar from "@/src/components/navbar";
+import NavLinks from "@/src/components/navLinks";
+import Footer from "../components/footer";
 
 export const metadata: Metadata = {
   title: {
@@ -35,16 +36,12 @@ export default function RootLayout({
   return (
     <html suppressHydrationWarning lang="en">
       <head />
-      <body
-        className={clsx(
-          " bg-white dark:bg-[#010409]",
-          fontSans.variable
-        )}
-      >
+      <body className={clsx(" bg-white dark:bg-[#010409]", fontSans.variable)}>
         <Providers themeProps={{ attribute: "class", defaultTheme: "light" }}>
           <Navbar />
-          <NavLinks/>
+          <NavLinks />
           <main className="">{children}</main>
+          <Footer/>
         </Providers>
       </body>
     </html>

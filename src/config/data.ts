@@ -1,5 +1,5 @@
-import AllLinks from "@/assets/icons/BuildingIcon";
-import SVGComponent from "@/assets/icons/BuildingIcon";
+import AllLinks from "@/src/assets/icons/BuildingIcon";
+import SVGComponent from "@/src/assets/icons/BuildingIcon";
 import {
   Bars,
   Beauty,
@@ -12,7 +12,7 @@ import {
   Park,
   Restaurants,
   Shopping,
-} from "@/components/icons";
+} from "@/src/components/icons";
 
 export const NavLink = [
   { path: AllLinks, name: "All" },
