@@ -1,9 +1,15 @@
+"use client"
 import { NavLink } from "@/src/config/data";
 import React from "react";
-
+import {motion} from "framer-motion"
 export default function NavLinks() {
   return (
-    <div className="max-w-[1310px] mx-auto mt-[22px] md:mt-[30px] lg:mt-[42px]">
+    <motion.div
+      initial={{ opacity: 0, y: 0 }}
+      animate={{ opacity: 1, y: 0 }}
+      transition={{ duration: 0.8, ease: "easeInOut" }}
+      className="max-w-[1310px] mx-auto mt-[22px] md:mt-[30px] lg:mt-[42px]"
+    >
       <div
         className="
           flex flex-nowrap
@@ -32,6 +38,6 @@ export default function NavLinks() {
           </div>
         ))}
       </div>
-    </div>
+    </motion.div>
   );
 }

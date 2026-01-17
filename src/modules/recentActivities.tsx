@@ -74,10 +74,8 @@ export default function RecentActivities() {
               </div>
               <div className="flex gap-1 md:gap-3 mt-[39px]">
                 {items.path.map((item, index) => (
-                  <div className="max-w-[118px] w-full ">
-                    {" "}
+                  <div key={index} className="max-w-[118px] w-full ">
                     <Image
-                      key={index}
                       className="object-cover"
                       height={300}
                       width={300}

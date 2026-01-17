@@ -5,6 +5,7 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import { Autoplay, Pagination, Navigation } from "swiper/modules";
 import "swiper/css";
 import "swiper/css/pagination";
+import {motion} from "framer-motion"
 
 import { ChevronLeft, ChevronRight, Star } from "lucide-react";
 import { findCards } from "@/src/config/data";
@@ -16,7 +17,11 @@ export default function FindBestSection() {
 
   return (
     <section className="px-3 md:px-6 lg:px-0 mt-[40px] md:mt-[50px] lg:mt-[60px]">
-      <div className="max-w-[1300px] mx-auto rounded-xl bg-[#1677BD] dark:bg-slate-950 px-4 md:px-6 py-5 md:py-10 dark:border-[0.7px] dark:border-slate-700 ">
+      <motion.div 
+        initial={{ opacity: 0, y: 40 }}
+        animate={{ opacity: 1, y: 0 }}
+        transition={{ duration: 0.8, ease: "easeInOut" }}
+        className="max-w-[1300px] mx-auto rounded-xl bg-[#1677BD] dark:bg-slate-950 px-4 md:px-6 py-5 md:py-10 dark:border-[0.7px] dark:border-slate-700 ">
         {/* Title */}
         <h2 className="text-white dark:text-gray-200 md:text-[32px] text-[18px] font-medium mb-4">
           Find the best restaurant ratings below
@@ -118,7 +123,7 @@ export default function FindBestSection() {
             </button>
           </Swiper>
         </div>
-      </div>
+      </motion.div>
     </section>
   );
 }

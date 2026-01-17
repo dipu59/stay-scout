@@ -5,11 +5,17 @@ import { Button } from "@heroui/react";
 import { Globe, MapPin, Search } from "lucide-react";
 import { ThemeSwitch } from "./theme-switch";
 import { nav } from "framer-motion/client";
+import {motion} from "framer-motion"
 import Link from "next/link";
 
 export default function Navbar() {
   return (
-    <nav className="max-w-[1300px] mx-auto border-b-1 md:pt-[30px] pt-[28px] pb-4 lg:pb-0 dark:border-b-gray-700 border-b-[#DCDCDC] ">
+    <motion.nav
+      initial={{ opacity: 0, y: -40 }}
+      animate={{ opacity: 1, y: 0 }}
+      transition={{ duration: 0.4, ease: "easeInOut",  delay:1, type:"spring" }}
+      className="max-w-[1300px] mx-auto border-b-1 md:pt-[30px] pt-[28px] pb-4 lg:pb-0 dark:border-b-gray-700 border-b-[#DCDCDC] "
+    >
       <div className="flex  justify-between items-center  lg:mt-[0px] mb-[10px] md:mb-[20px] lg:mb-[23px] gap-6 md:gap-0 px-3 ">
         <div className="flex justify-center items-center">
           <Link href="/">
@@ -184,6 +190,6 @@ export default function Navbar() {
           </button>
         </form>
       </div>
-    </nav>
+    </motion.nav>
   );
 }
