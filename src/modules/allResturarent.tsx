@@ -6,7 +6,7 @@ import { Stars } from "../components/icons";
 import { allResturarent } from "../config/data";
 import { RatingStars } from "../components/star";
 import { Button } from "@heroui/button";
-import RestaurantMap from "../components/RestaurantMapClient";
+import RestaurantMap from "../components/RestaurantMap";
 
 const INITIAL_COUNT = 8;
 export default function AllResturarent() {
@@ -102,8 +102,7 @@ export default function AllResturarent() {
           </div>
         </div>
         <div className="  overflow-hidden px-5 lg:px-0  ">
-          
-        <RestaurantMap />
+          <RestaurantMap />
         </div>
       </div>
     </div>
