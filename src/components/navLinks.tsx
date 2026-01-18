@@ -8,7 +8,7 @@ export default function NavLinks() {
       initial={{ opacity: 0, y: 0 }}
       animate={{ opacity: 1, y: 0 }}
       transition={{ duration: 0.8, ease: "easeInOut" }}
-      className="max-w-[1310px] mx-auto mt-[22px] md:mt-[30px] lg:mt-[42px]"
+      className="max-w-[1310px] mx-auto pt-[22px] md:pt-[30px] lg:pt-[42px] dark:border-t-gray-700 border-t-[#DCDCDC] border-t-1"
     >
       <div
         className="

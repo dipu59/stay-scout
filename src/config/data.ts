@@ -226,7 +226,6 @@ export const LatestCard = [
   },
 ];
 
-
 // Recent Activities Data
 export const SRecentActivities = [
   {
@@ -328,7 +327,7 @@ export const SRecentActivities = [
       "One of the best dining experiences I’ve had recently. Everything felt premium and well organized.",
     desc2:
       "Staff recommendations were spot on. Truly enjoyed every dish served.",
-   path: [
+    path: [
       "/review/group2/image1.jpg",
       "/review/group2/image2.jpg",
       "/review/group2/image3.jpg",
@@ -351,3 +350,172 @@ export const SRecentActivities = [
   },
 ];
 
+export const allResturarent = [
+  {
+    path: "/allResturarent/image1.jpg",
+    title: "The Snug",
+    desc: "A cozy neighborhood pub known for its warm atmosphere, classic comfort food, and friendly service.",
+    stars: 4,
+    review: "654",
+    star: "4.5",
+  },
+  {
+    path: "/allResturarent/image2.png",
+    title: "Bottega",
+    desc: "An upscale Italian restaurant offering handcrafted pasta, fine wines, and a modern dining experience.",
+    stars: 5,
+    review: "1672",
+    star: "5.0",
+  },
+  {
+    path: "/allResturarent/image3.png",
+    title: "Little Shucker",
+    desc: "Seafood-focused spot popular for fresh oysters, crab rolls, and a relaxed coastal vibe.",
+    stars: 3,
+    review: "553",
+    star: "3.0",
+  },
+  {
+    path: "/allResturarent/image4.png",
+    title: "Lokma",
+    desc: "A vibrant Mediterranean restaurant serving authentic Turkish street food and handmade desserts.",
+    stars: 4,
+    review: "654",
+    star: "4.5",
+  },
+  {
+    path: "/allResturarent/image5.png",
+    title: "Starbelly",
+    desc: "A casual yet refined eatery offering seasonal dishes made with fresh, locally sourced ingredients.",
+    stars: 3,
+    review: "290",
+    star: "3.7",
+  },
+  {
+    path: "/allResturarent/image6.png",
+    title: "The Melt",
+    desc: "Famous for gourmet grilled cheese sandwiches, comfort meals, and late-night dining.",
+    stars: 4,
+    review: "709",
+    star: "4.9",
+  },
+  {
+    path: "/allResturarent/image7.png",
+    title: "Arabia Nights",
+    desc: "Middle Eastern restaurant known for rich flavors, traditional platters, and live ambiance.",
+    stars: 5,
+    review: "893",
+    star: "5.0",
+  },
+
+  // 🔥 New 10 demo cards start here
+
+  {
+    path: "/allResturarent/image2.png",
+    title: "Cafe Milano",
+    desc: "A stylish European café offering artisan coffee, pastries, and light continental meals.",
+    stars: 4,
+    review: "421",
+    star: "4.2",
+  },
+  {
+    path: "/allResturarent/image3.png",
+    title: "Spice Route",
+    desc: "Indian fine-dining restaurant serving rich curries, tandoori specials, and aromatic spices.",
+    stars: 5,
+    review: "1184",
+    star: "4.8",
+  },
+  {
+    path: "/allResturarent/image4.png",
+    title: "Green Leaf Bistro",
+    desc: "A health-focused bistro offering vegan, gluten-free, and organic meal options.",
+    stars: 4,
+    review: "367",
+    star: "4.1",
+  },
+  {
+    path: "/allResturarent/image5.png",
+    title: "Sakura House",
+    desc: "Japanese restaurant featuring fresh sushi, ramen bowls, and traditional Japanese flavors.",
+    stars: 5,
+    review: "982",
+    star: "4.9",
+  },
+  {
+    path: "/allResturarent/image6.png",
+    title: "Urban Grill",
+    desc: "A modern grill house specializing in flame-grilled steaks, burgers, and craft beverages.",
+    stars: 4,
+    review: "615",
+    star: "4.3",
+  },
+  {
+    path: "/allResturarent/image7.png",
+    title: "La Fiesta",
+    desc: "Mexican restaurant serving tacos, burritos, and signature cocktails in a lively setting.",
+    stars: 4,
+    review: "748",
+    star: "4.4",
+  },
+  {
+    path: "/allResturarent/image2.png",
+    title: "Ocean Pearl",
+    desc: "Premium seafood dining with ocean-fresh fish, elegant plating, and waterfront views.",
+    stars: 5,
+    review: "1296",
+    star: "4.9",
+  },
+  {
+    path: "/allResturarent/image3.png",
+    title: "The Rustic Table",
+    desc: "Farm-to-table restaurant highlighting seasonal produce and handcrafted rustic dishes.",
+    stars: 4,
+    review: "532",
+    star: "4.2",
+  },
+  {
+    path: "/allResturarent/image4.png",
+    title: "Dragon Wok",
+    desc: "Asian fusion spot offering bold flavors, quick service, and customizable stir-fry meals.",
+    stars: 3,
+    review: "284",
+    star: "3.6",
+  },
+  {
+    path: "/allResturarent/image4.png",
+    title: "Blue Harbor Café",
+    desc: "Relaxed waterfront café perfect for brunch, light bites, and scenic sunset views.",
+    stars: 4,
+    review: "689",
+    star: "4.4",
+  },
+];
+
+// data/restaurantLocations.ts
+export const restaurantLocations = [
+  {
+    id: 1,
+    name: "The Snug",
+    lat: 1.2868,
+    lng: 103.8523,
+  },
+  {
+    id: 2,
+    name: "Bottega",
+    lat: 1.3009,
+    lng: 103.8456,
+  },
+  {
+    id: 3,
+    name: "Little Shucker",
+    lat: 1.2897,
+    lng: 103.8551,
+  },
+  {
+    id: 4,
+    name: "Arabia Nights",
+    lat: 1.2834,
+    lng: 103.8607,
+  },
+];

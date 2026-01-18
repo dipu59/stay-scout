@@ -7,7 +7,6 @@ import { Providers } from "./providers";
 import { siteConfig } from "@/src/config/site";
 import { fontSans } from "@/src/config/fonts";
 import Navbar from "@/src/components/navbar";
-import NavLinks from "@/src/components/navLinks";
 import Footer from "../components/footer";
 
 export const metadata: Metadata = {
@@ -39,7 +38,7 @@ export default function RootLayout({
       <body className={clsx(" bg-white dark:bg-[#010409]", fontSans.variable)}>
         <Providers themeProps={{ attribute: "class", defaultTheme: "light" }}>
           <Navbar />
-          <NavLinks />
+          
           <main className="">{children}</main>
           <Footer/>
         </Providers>

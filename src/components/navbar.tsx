@@ -14,7 +14,7 @@ export default function Navbar() {
       initial={{ opacity: 0, y: -40 }}
       animate={{ opacity: 1, y: 0 }}
       transition={{ duration: 0.4, ease: "easeInOut",  delay:1, type:"spring" }}
-      className="max-w-[1300px] mx-auto border-b-1 md:pt-[30px] pt-[28px] pb-4 lg:pb-0 dark:border-b-gray-700 border-b-[#DCDCDC] "
+      className="max-w-[1300px] mx-auto  md:pt-[30px] pt-[28px] pb-4 lg:pb-0  "
     >
       <div className="flex  justify-between items-center  lg:mt-[0px] mb-[10px] md:mb-[20px] lg:mb-[23px] gap-6 md:gap-0 px-3 ">
         <div className="flex justify-center items-center">
