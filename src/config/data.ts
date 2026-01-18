@@ -116,6 +116,7 @@ export const findCards = [
 // The latest trends Cards Details
 export const LatestCard = [
   {
+    slug: "bella-italia",
     path: "/latestTrand/image1.jpg",
     title: "Bella Italia",
     description:
@@ -126,6 +127,7 @@ export const LatestCard = [
   },
 
   {
+    slug: "little-shucker",
     path: "/latestTrand/image2.jpg",
     title: "Little Shucker",
     description:
@@ -135,6 +137,7 @@ export const LatestCard = [
     review: "189",
   },
   {
+    slug: "marafuku-ramen",
     path: "/latestTrand/image3.jpg",
     title: "Marafuku Ramen",
     description:
@@ -144,6 +147,7 @@ export const LatestCard = [
     review: "276",
   },
   {
+    slug: "bottega",
     path: "/latestTrand/image4.jpg",
     title: "Bottega",
     description:
@@ -153,6 +157,7 @@ export const LatestCard = [
     review: "243",
   },
   {
+    slug: "arabia-nights",
     path: "/latestTrand/image5.jpg",
     title: "Arabia Nights",
     description:
@@ -162,6 +167,7 @@ export const LatestCard = [
     review: "198",
   },
   {
+    slug: "lokma",
     path: "/latestTrand/image6.jpg",
     title: "Lokma",
     description:
@@ -171,6 +177,7 @@ export const LatestCard = [
     review: "156",
   },
   {
+    slug: "the-snug",
     path: "/latestTrand/image7.jpg",
     title: "The snug",
     description:
@@ -180,6 +187,7 @@ export const LatestCard = [
     review: "127",
   },
   {
+    slug: "starbelly",
     path: "/latestTrand/image8.jpg",
     title: "Starbelly",
     description:
@@ -189,6 +197,7 @@ export const LatestCard = [
     review: "267",
   },
   {
+    slug: "iori",
     path: "/latestTrand/image9.jpg",
     title: "Iori",
     description:
@@ -198,6 +207,7 @@ export const LatestCard = [
     review: "298",
   },
   {
+    slug: "ngalley",
     path: "/latestTrand/image10.jpg",
     title: "Ngalley",
     description:
@@ -207,6 +217,7 @@ export const LatestCard = [
     review: "142",
   },
   {
+    slug: "diogonal",
     path: "/latestTrand/image11.jpg",
     title: "diogonal",
     description:
@@ -216,6 +227,7 @@ export const LatestCard = [
     review: "185",
   },
   {
+    slug: "kitoko",
     path: "/latestTrand/image12.jpg",
     title: "Kitoko",
     description:
@@ -225,6 +237,7 @@ export const LatestCard = [
     review: "164",
   },
 ];
+
 
 // Recent Activities Data
 export const SRecentActivities = [
@@ -517,5 +530,27 @@ export const restaurantLocations = [
     name: "Arabia Nights",
     lat: 1.2834,
     lng: 103.8607,
+  },
+];
+
+// src/data/restaurants.ts
+export const restaurants = [
+  {
+    id: 1,
+    title: "Bella Italia",
+    slug: "bella-italia",
+    desc: "Authentic Italian food with a cozy atmosphere.",
+  },
+  {
+    id: 2,
+    title: "Bottega",
+    slug: "bottega",
+    desc: "Modern Italian cuisine with handcrafted pasta.",
+  },
+  {
+    id: 3,
+    title: "The Snug",
+    slug: "the-snug",
+    desc: "A warm pub-style restaurant with comfort food.",
   },
 ];

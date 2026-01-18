@@ -2,11 +2,11 @@
 import React, { useState } from "react";
 import SortDropdown from "../components/dropdownButton";
 import Image from "next/image";
-import { Stars } from "../components/icons";
 import { allResturarent } from "../config/data";
 import { RatingStars } from "../components/star";
 import { Button } from "@heroui/button";
 import RestaurantMap from "../components/RestaurantMap";
+import Link from "next/link";
 
 const INITIAL_COUNT = 8;
 export default function AllResturarent() {
@@ -47,9 +47,11 @@ export default function AllResturarent() {
                   </div>
 
                   <div>
-                    <h1 className="font-roboto font-semibold text-[#232323] dark:text-gray-200 text-xl md:text-[22px]">
-                      {items.title}
-                    </h1>
+                    {/* <Link href={`/restaurants/${items.slug}`}> */}
+                      <h1 className="font-roboto font-semibold text-[#232323] dark:text-gray-200 text-xl md:text-[22px]">
+                        {items.title}
+                      </h1>
+                    {/* </Link> */}
 
                     <p className="mt-[11px] font-roboto text-sm md:text-base text-[#8F8F8F] dark:text-gray-500">
                       {items.desc}
