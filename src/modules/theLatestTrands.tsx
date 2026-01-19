@@ -1,10 +1,10 @@
 "use client";
 import { useRouter } from "next/navigation";
 import { RatingStars } from "@/src/components/star";
-import { LatestCard } from "@/src/config/data";
 import { Button } from "@heroui/button";
 import React from "react";
 import Link from "next/link";
+import { LatestCard } from "../restrurentDB/data";
 
 export default function LatestTrands() {
   const router = useRouter();

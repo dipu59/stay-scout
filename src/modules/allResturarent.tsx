@@ -20,7 +20,20 @@ export default function AllResturarent() {
       <div className="grid grid-cols-1 gap-10 lg:gap-0 lg:grid-cols-2 overflow-hidden">
         <div className="px-3 lg:px-0">
           <p className="text-[#232323] dark:text-gray-200 font-bold md:font-semibold font-roboto text-sm md:text-base pt-[20px] pb-[11px] ">
-            Home / All restaurants
+            <Link
+              href={"/"}
+              className="hover:underline hover:underline-offset-2 transition-all duration-300 "
+            >
+              {" "}
+              Home
+            </Link>{" "}
+            /{" "}
+            <Link
+              className="hover:underline hover:underline-offset-2 transition-all duration-300 "
+              href={"/allrestaurants"}
+            >
+              All restaurants
+            </Link>
           </p>
           <div className="flex justify-between items-center lg:pr-3 ">
             <h1 className="text-[#1E1E1E] dark:text-gray-200 font-lexend font-bold md:font-extrabold text-2xl md:text-[32px] ">
@@ -48,9 +61,9 @@ export default function AllResturarent() {
 
                   <div>
                     {/* <Link href={`/restaurants/${items.slug}`}> */}
-                      <h1 className="font-roboto font-semibold text-[#232323] dark:text-gray-200 text-xl md:text-[22px]">
-                        {items.title}
-                      </h1>
+                    <h1 className="font-roboto font-semibold text-[#232323] dark:text-gray-200 text-xl md:text-[22px]">
+                      {items.title}
+                    </h1>
                     {/* </Link> */}
 
                     <p className="mt-[11px] font-roboto text-sm md:text-base text-[#8F8F8F] dark:text-gray-500">

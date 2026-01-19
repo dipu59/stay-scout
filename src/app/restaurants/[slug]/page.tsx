@@ -1,6 +1,7 @@
 // src/app/restaurants/[slug]/page.tsx
+import Hero from "@/src/components/dynamic/hero";
 import { RatingStars } from "@/src/components/star";
-import { LatestCard, restaurants } from "@/src/config/data";
+import { LatestCard } from "@/src/restrurentDB/data";
 
 export default function RestaurantDetails({ params }: any) {
   const { slug } = params;
@@ -13,10 +14,7 @@ export default function RestaurantDetails({ params }: any) {
 
   return (
     <div>
-      <h1>{restaurant.title}</h1>
-      <p>{restaurant.description}</p>
-      <RatingStars rating={restaurant.ratings}/>
-      <h1>Pack pack baby</h1>
+      <Hero/>
     </div>
   );
 }
