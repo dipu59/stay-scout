@@ -19,7 +19,7 @@ export default function Hero() {
           Bellaitalia
         </Link>{" "}
       </div>
-      <div className="relative w-full h-[552px] overflow-hidden mt-[19px]">
+      <div className="relative w-full h-[552px] overflow-x-hidden mt-[19px]">
         {/* Image */}
         <img
           src="/dynamic/bela.jpg"
@@ -31,7 +31,7 @@ export default function Hero() {
         <div className="absolute top-0 left-0 w-full h-full gradient  z-10 " />
 
         {/* Content */}
-        <div className="absolute z-20 inset-0 flex flex-col justify-start max-w-[1100px] mx-auto mt-[67px] ">
+        <div className="absolute z-20 inset-0 flex flex-col justify-start max-w-[1100px] mx-auto mt-[67px] px-5 lg:px-0 ">
           <h1 className=" font-lexend font-semibold text-[40px] md:text-[52px] text-white ">
             Bella Italia
           </h1>
@@ -48,7 +48,7 @@ export default function Hero() {
             words used temporarily to calibrate a layout.
           </p>
 
-          <div className="flex gap-2 items-center mb-[37px] mt-[65px]">
+          <div className="flex gap-2 items-center mb-[20px] md:mb-[37px] mt-[65px]">
             <LocateIcon />
             <span className="font-roboto text-white text-sm md:text-base ">
               Singapour, Bishan-Ang Mo Kio Park{" "}
@@ -61,6 +61,16 @@ export default function Hero() {
             </span>
           </div>
         </div>
+      </div>
+      <div className="flex justify-center items-center relative -top-17 size-[139px] mx-auto z-20 rounded-full bg-white border-[5px] border-white ">
+        <img
+          className="object-cover rounded-full"
+          src="/dynamic/logo.jpg"
+          alt="Logo"
+        />
+        <h2 className="absolute text-[#D03123] font-lexend font-semibold text-xs md:text-sm mt-[4px] ">
+          Bella italia
+        </h2>
       </div>
     </div>
   );

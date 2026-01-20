@@ -1,5 +1,6 @@
 // src/app/restaurants/[slug]/page.tsx
 import Hero from "@/src/components/dynamic/hero";
+import MagnificentPlace from "@/src/components/dynamic/magnificentPlace";
 import { RatingStars } from "@/src/components/star";
 import { LatestCard } from "@/src/restrurentDB/data";
 
@@ -14,7 +15,8 @@ export default function RestaurantDetails({ params }: any) {
 
   return (
     <div>
-      <Hero/>
+      <Hero />
+      <MagnificentPlace />
     </div>
   );
 }
