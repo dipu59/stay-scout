@@ -23,12 +23,17 @@ export default async function RestaurantDetails({
 
   return (
     <div>
-      <Hero />
+      <Hero restaurant={restaurant} />
       <MagnificentPlace />
-      <MoreInformation/>
-      <OverallRating/>
-      <Review/>
-      <AlsoDiscover/>
+      <MoreInformation />
+      <OverallRating />
+      <Review />
+      <AlsoDiscover />
+      {/* {LatestCard.map((items,index)=>(
+        <div key={index}>
+          {items.dynamic?.location}
+        </div>
+      ))} */}
     </div>
   );
 }

@@ -3,8 +3,27 @@ import React from "react";
 import { Stars } from "../icons";
 import { RatingStars } from "../star";
 import { Clock3, LocateIcon } from "lucide-react";
+import { LatestCard } from "@/src/restrurentDB/data";
 
-export default function Hero() {
+type HeroProps = {
+  restaurant: {
+    slug: string;
+    title: string;
+    path: string;
+    description: string;
+    rating: string;
+    ratings: number;
+    review: string;
+    dynamic: {
+      coverPath: string;
+      location: string;
+      shortTime: string;
+      time:string;
+    };
+  };
+};
+
+export default function Hero({ restaurant }: HeroProps) {
   return (
     <div className="max-w-[1440px] mx-auto border-t border-t-[#DCDCDC] dark:border-t-slate-700 ">
       <div className="flex gap-1 text-[#232323] dark:text-gray-300 font-roboto font-semibold text-sm md:text-base max-w-[1100px] mx-auto px-5 lg:px-0 pt-[16px] lg:pt-[20px] ">
@@ -16,15 +35,17 @@ export default function Hero() {
           className="hover:underline hover:underline-offset-2 "
           href={"Dynamic"}
         >
-          Bellaitalia
-        </Link>{" "}
+          <span className="capitalize">
+            {restaurant.slug.replace("-", " ")}
+          </span>
+        </Link>
       </div>
       <div className="relative w-full h-[552px] overflow-x-hidden mt-[19px]">
         {/* Image */}
         <img
-          src="/dynamic/bela.jpg"
+          src={`/${restaurant.dynamic.coverPath}`}
           className="w-full h-full object-cover"
-          alt="Bella Italia"
+          alt={restaurant.title}
         />
 
         {/* Overlay */}
@@ -33,31 +54,28 @@ export default function Hero() {
         {/* Content */}
         <div className="absolute z-20 inset-0 flex flex-col justify-start max-w-[1100px] mx-auto mt-[67px] px-5 lg:px-0 ">
           <h1 className=" font-lexend font-semibold text-[40px] md:text-[52px] text-white ">
-            Bella Italia
+            {restaurant.title}
           </h1>
           <div className="flex gap-2 items-center ">
-            <RatingStars rating={5} />
+            <RatingStars rating={restaurant.ratings} />
             <p className="font-roboto font-semibold text-white text-sm md:text-base ">
-              5.0 (834 reviews)
+              {restaurant.rating} ({restaurant.review} reviews)
             </p>
           </div>
           <p className="text-white text-sm md:text-base font-roboto max-w-[528px] mt-[28px] ">
-            The lorem ipsum is, in printing, a series of meaningless words used
-            temporarily to calibrate a layout.
-            <br /> The lorem ipsum is, in printing, a series of meaningless
-            words used temporarily to calibrate a layout.
+            {restaurant.description}
           </p>
 
           <div className="flex gap-2 items-center mb-[20px] md:mb-[37px] mt-[65px]">
             <LocateIcon />
             <span className="font-roboto text-white text-sm md:text-base ">
-              Singapour, Bishan-Ang Mo Kio Park{" "}
+              {restaurant.dynamic.location}
             </span>
           </div>
           <div className="flex gap-2 items-center">
             <Clock3 />
             <span className="font-roboto text-white text-sm md:text-base ">
-              Singapour, 7j/7, 08:00 - 22:00{" "}
+              {restaurant.dynamic.time}
             </span>
           </div>
         </div>
@@ -69,7 +87,7 @@ export default function Hero() {
           alt="Logo"
         />
         <h2 className="absolute text-[#D03123] font-lexend font-semibold text-xs md:text-sm mt-[4px] ">
-          Bella italia
+          {restaurant.title}
         </h2>
       </div>
     </div>
