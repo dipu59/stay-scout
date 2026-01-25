@@ -25,7 +25,7 @@ export default async function RestaurantDetails({
     <div>
       <Hero restaurant={restaurant} />
       <MagnificentPlace />
-      <MoreInformation />
+      <MoreInformation restaurant={restaurant} />
       <OverallRating />
       <Review />
       <AlsoDiscover />

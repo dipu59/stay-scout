@@ -11,7 +11,18 @@ import {
   Whatsapp,
 } from "../icons";
 
-export default function MoreInformation() {
+type MoreInformationProps = {
+  restaurant: {
+    dynamic: {
+      phone: string;
+      shortLocation: string;
+      shortTime: string;
+      websiteLink: string;
+    };
+  };
+};
+
+export default function MoreInformation({ restaurant }: MoreInformationProps) {
   const lat = 1.2868;
   const lng = 103.8523;
 
@@ -33,21 +44,26 @@ export default function MoreInformation() {
             </div>
             <div className="flex items-center justify-start gap-[17px] font-roboto text-base md:text-xl text-[#232323] dark:text-gray-300 ">
               <Phone />
-              <span>+847 87 37 29 01</span>
+              <span>{restaurant.dynamic.phone}</span>
             </div>
             <div className="flex items-center justify-start gap-[17px] font-roboto text-base md:text-xl text-[#232323] dark:text-gray-300 ">
               <Location />
-              <span>Singapour, Bishan</span>
+              <span>{restaurant.dynamic.shortLocation}</span>
             </div>
             <div className="flex items-center justify-start gap-[17px] font-roboto text-base md:text-xl text-[#232323] dark:text-gray-300 ">
               <Clock />
-              <span>7j/7, 08:00 - 22:00</span>
+              <span>{restaurant.dynamic.shortTime}</span>
             </div>
             <div className="flex items-center justify-start gap-[17px] font-roboto text-base md:text-xl text-[#232323] dark:text-gray-300 ">
               <Website />
-              <span className=" underline underline-offset-2 ">
-                www.bellaitalia.com
-              </span>
+              <a
+                href={`https://${restaurant.dynamic.websiteLink}`}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="underline underline-offset-3"
+              >
+                {restaurant.dynamic.websiteLink}
+              </a>
             </div>
             <div className="flex items-center gap-[27px] ">
               <Facebook className="fill-black dark:fill-gray-200 " />
