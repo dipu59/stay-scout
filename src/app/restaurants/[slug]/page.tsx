@@ -1,22 +1,28 @@
 // src/app/restaurants/[slug]/page.tsx
 import Hero from "@/src/components/dynamic/hero";
 import MagnificentPlace from "@/src/components/dynamic/magnificentPlace";
+import MoreInformation from "@/src/components/dynamic/moreInformation";
 import { RatingStars } from "@/src/components/star";
 import { LatestCard } from "@/src/restrurentDB/data";
 
-export default function RestaurantDetails({ params }: any) {
-  const { slug } = params;
+export default async function RestaurantDetails({
+  params,
+}: {
+  params: Promise<{ slug: string }>;
+}) {
+  const { slug } = await params;
 
   const restaurant = LatestCard.find((item) => item.slug === slug);
 
   if (!restaurant) {
-    return <h1>Restaurant not found</h1>;
+    return <div>Restaurant not found</div>;
   }
 
   return (
     <div>
       <Hero />
       <MagnificentPlace />
+      <MoreInformation/>
     </div>
   );
 }
