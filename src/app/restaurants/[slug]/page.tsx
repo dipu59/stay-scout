@@ -3,6 +3,7 @@ import Hero from "@/src/components/dynamic/hero";
 import MagnificentPlace from "@/src/components/dynamic/magnificentPlace";
 import MoreInformation from "@/src/components/dynamic/moreInformation";
 import OverallRating from "@/src/components/dynamic/overallRating";
+import Review from "@/src/components/dynamic/review";
 import { RatingStars } from "@/src/components/star";
 import { LatestCard } from "@/src/restrurentDB/data";
 
@@ -25,6 +26,7 @@ export default async function RestaurantDetails({
       <MagnificentPlace />
       <MoreInformation/>
       <OverallRating/>
+      <Review/>
     </div>
   );
 }

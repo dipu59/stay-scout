@@ -25,7 +25,7 @@ export default function OverallRating() {
 
         <div className="space-y-[15px]">
           <div className="items-center md:w-[400px]  lg:w-[559px] flex gap-3 w-full ">
-            <p className="text-[#484848] dark:text-gray-400 font-roboto text-sm md:text-[17px] ">
+            <p className="text-[#484848] dark:text-gray-400 font-roboto text-sm md:text-[17px] min-w-[52px] ">
               5 stars
             </p>
             <div className="md:max-w-[300px] max-w-[360px] lg:max-w-[487px]  w-full">
@@ -33,7 +33,7 @@ export default function OverallRating() {
             </div>
           </div>
           <div className="items-center md:w-[400px]  lg:w-[559px] flex gap-3 w-full ">
-            <p className="text-[#484848] dark:text-gray-400 font-roboto text-sm md:text-[17px] ">
+            <p className="text-[#484848] dark:text-gray-400 font-roboto text-sm md:text-[17px] min-w-[52px] ">
               0 star
             </p>
             <div className="md:max-w-[300px] max-w-[360px] lg:max-w-[487px]  w-full">
@@ -41,7 +41,7 @@ export default function OverallRating() {
             </div>
           </div>
           <div className="items-center md:w-[400px]  lg:w-[559px] flex gap-3 w-full ">
-            <p className="text-[#484848] dark:text-gray-400 font-roboto text-sm md:text-[17px] ">
+            <p className="text-[#484848] dark:text-gray-400 font-roboto text-sm md:text-[17px] min-w-[52px] ">
               0 star
             </p>
             <div className="md:max-w-[300px] max-w-[360px] lg:max-w-[487px]  w-full">
@@ -49,7 +49,7 @@ export default function OverallRating() {
             </div>
           </div>
           <div className="items-center md:w-[400px]  lg:w-[559px] flex gap-3 w-full ">
-            <p className="text-[#484848] dark:text-gray-400 font-roboto text-sm md:text-[17px] ">
+            <p className="text-[#484848] dark:text-gray-400 font-roboto text-sm md:text-[17px] min-w-[52px] ">
               0 star
             </p>
             <div className="md:max-w-[300px] max-w-[360px] lg:max-w-[487px]  w-full">
@@ -57,7 +57,7 @@ export default function OverallRating() {
             </div>
           </div>
           <div className="items-center md:w-[400px]  lg:w-[559px] flex gap-3 w-full ">
-            <p className="text-[#484848] dark:text-gray-400 font-roboto text-sm md:text-[17px] ">
+            <p className="text-[#484848] dark:text-gray-400 font-roboto text-sm md:text-[17px] min-w-[52px]">
               0 star
             </p>
             <div className="md:max-w-[300px] max-w-[360px] lg:max-w-[487px]  w-full">
