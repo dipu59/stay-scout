@@ -1,10 +1,17 @@
-import { User } from 'lucide-react';
-import React from 'react'
-import { RatingStars } from '../star';
+import { User } from "lucide-react";
+import React from "react";
+import { RatingStars } from "../star";
+import SortDropdown from "../dropdownButton";
+import FilterDropdown from "../filterDropdown";
 
 export default function Review() {
   return (
-    <div className="max-w-[1100px] mx-auto mt-[40px] md:mt-[50px] px-3 lg:px-0 pb-[60px] ">
+    <div className="max-w-[1100px] mx-auto mt-[30px] md:mt-[40px] px-3 lg:px-0 pb-[60px] ">
+      <div className="flex gap-[38px] items-center mb-[30px] md:mb-[43px] ">
+        <FilterDropdown />
+        <SortDropdown />
+      </div>
+      {/* Card Section maping */}
       <div className="bg-[#F8F8F8] dark:bg-slate-900 dark:hover:bg-slate-900/80 max-w-[1055px] rounded-[20px] ">
         <div className="flex gap-2 p-[20px]">
           <div className="size-[59px] p-[16px] bg-white rounded-full ">
