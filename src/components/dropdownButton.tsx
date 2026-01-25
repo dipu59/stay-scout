@@ -54,7 +54,7 @@ export default function SortDropdown() {
       {open && (
         <div
           className="
-            absolute right-0 mt-2 
+            absolute lg:right-0 left-0 mt-2 
             rounded-xl bg-white dark:bg-slate-950
             shadow-xl border border-gray-200 dark:border-slate-800
             p-2 z-50 w-[276px] 

@@ -1,4 +1,5 @@
 // src/app/restaurants/[slug]/page.tsx
+import AlsoDiscover from "@/src/components/dynamic/alsoDiscover";
 import Hero from "@/src/components/dynamic/hero";
 import MagnificentPlace from "@/src/components/dynamic/magnificentPlace";
 import MoreInformation from "@/src/components/dynamic/moreInformation";
@@ -27,6 +28,7 @@ export default async function RestaurantDetails({
       <MoreInformation/>
       <OverallRating/>
       <Review/>
+      <AlsoDiscover/>
     </div>
   );
 }

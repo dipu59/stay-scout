@@ -57,7 +57,7 @@ export default function FilterDropdown() {
       {open && (
         <div
           className="
-            absolute -left-10 mt-[30px] 
+            absolute lg:-left-10 left-2 mt-[30px] 
             rounded-xl bg-white dark:bg-slate-950
             shadow-xl border border-gray-200 dark:border-slate-800
             p-3 z-50  w-[331px] pb-4
