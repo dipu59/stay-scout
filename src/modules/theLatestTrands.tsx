@@ -6,7 +6,11 @@ import React from "react";
 import Link from "next/link";
 import { LatestCard } from "../restrurentDB/data";
 
-export default function LatestTrands() {
+type Props = {
+  data: typeof LatestCard;
+};
+
+export default function LatestTrands({ data }: Props) {
   const router = useRouter();
 
   return (
@@ -17,7 +21,7 @@ export default function LatestTrands() {
 
       {/* card Section */}
       <div className="grid grid-cols-2 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-[6px] md:gap-[10px] px-2 lg:px-0 lg:gap-[20px]">
-        {LatestCard.map((items, index) => (
+        {data.map((items, index) => (
           <div
             key={index}
             className="max-w-[319px] mx-auto overflow-hidden hover:-translate-y-1 hover:scale-[1] hover:delay-150 cursor-pointer transition-all duration-300  bg-[#F8F8F8] dark:bg-[#0d1017] rounded-[14px] dark:hover:shadow-blue-950 border border-[#E6E6E6] hover:border-[#cfcfcf] dark:border-[#40434a]

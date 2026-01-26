@@ -8,6 +8,7 @@ import { siteConfig } from "@/src/config/site";
 import { fontSans } from "@/src/config/fonts";
 import Navbar from "@/src/components/navbar";
 import Footer from "../components/footer";
+import { SearchProvider } from "../context/context";
 
 export const metadata: Metadata = {
   title: {
@@ -35,12 +36,19 @@ export default function RootLayout({
   return (
     <html suppressHydrationWarning lang="en">
       <head />
-      <body className={clsx(" bg-white dark:bg-[#010409]", fontSans.variable)}>
+      <body
+        className={clsx(
+          " bg-white dark:bg-[#010409] overflow-x-hidden",
+          fontSans.variable,
+        )}
+      >
         <Providers themeProps={{ attribute: "class", defaultTheme: "light" }}>
-          <Navbar />
-          
-          <main className="">{children}</main>
-          <Footer/>
+          <SearchProvider>
+            <Navbar />
+
+            <main className="">{children}</main>
+          </SearchProvider>
+          <Footer />
         </Providers>
       </body>
     </html>

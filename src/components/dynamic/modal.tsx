@@ -1,4 +1,5 @@
 "use client";
+import { LatestCard } from "@/src/restrurentDB/data";
 import {
   Modal,
   ModalContent,
@@ -10,9 +11,25 @@ import {
 } from "@heroui/react";
 import { Download } from "lucide-react";
 import Image from "next/image";
+import { useMemo, useState } from "react";
 
 export default function MenuDropdown({ names }: any) {
   const { isOpen, onOpen, onOpenChange } = useDisclosure();
+  const [query, setQuery] = useState("");
+  const [showSuggestion, setShowSuggestion] = useState(false);
+
+  const suggestions = useMemo(() => {
+    if (!query) return [];
+
+    const q = query.toLowerCase();
+
+    return LatestCard.filter(
+      (item) =>
+        item.title.toLowerCase().includes(q) ||
+        item.dynamic.shortLocation.toLowerCase().includes(q),
+    ).slice(0, 6);
+  }, [query]);
+
 
   return (
     <>
@@ -54,7 +71,7 @@ export default function MenuDropdown({ names }: any) {
                     color="primary"
                   >
                     {/* <Download /> */}
-                    <a className="flex gap-3" href="/dynamic/menu.png" download>
+                    <a className="flex gap-3 items-center" href="/dynamic/menu.png" download>
                       <Download />
                       Download this menu
                     </a>
