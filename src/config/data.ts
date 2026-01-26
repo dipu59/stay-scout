@@ -431,3 +431,13 @@ export const restaurants = [
     desc: "A warm pub-style restaurant with comfort food.",
   },
 ];
+// data/gallery.ts
+export const galleryImages = [
+  "/dynamic/bella_discover/img7.jpg",
+  "/dynamic/bella_discover/img6.jpg",
+  "/dynamic/bella_discover/img4.jpg",
+  "/dynamic/bella_discover/img2.jpg",
+  "/dynamic/bella_discover/img3.jpg",
+  "/dynamic/bella_discover/img4.jpg",
+  "/dynamic/bella_discover/img7.jpg",
+];
