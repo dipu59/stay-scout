@@ -3,7 +3,12 @@ import React from "react";
 import { OverallRatingicon } from "../icons";
 import { RatingStars } from "../star";
 
-export default function OverallRating() {
+type OverallRatings = {
+  restaurant: {
+   ratings:number;
+};}
+
+export default function OverallRating({ restaurant }: OverallRatings) {
   return (
     <div className="max-w-[1100px] mx-auto mt-[40px] md:mt-[50px] px-3 lg:px-0 border-b border-b-[#DCDCDC] dark:border-b-slate-700 pb-[60px] ">
       <div className="flex  flex-col md:flex-row gap-10 lg:gap-[50px]">
@@ -18,7 +23,7 @@ export default function OverallRating() {
               834 Reviews
             </p>
             <div className="md:mt-[28px] mt-[20px]">
-              <RatingStars rating={5} />
+              <RatingStars rating={restaurant.ratings} />
             </div>
           </div>
         </div>

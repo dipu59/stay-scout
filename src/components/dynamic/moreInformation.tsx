@@ -10,6 +10,7 @@ import {
   Website,
   Whatsapp,
 } from "../icons";
+import MenuDropdown from "./modal";
 
 type MoreInformationProps = {
   restaurant: {
@@ -38,8 +39,8 @@ export default function MoreInformation({ restaurant }: MoreInformationProps) {
           <div className="flex flex-col gap-[35px] mt-[40px] ">
             <div className="flex items-center justify-start gap-[17px] font-roboto text-base md:text-xl text-[#232323] dark:text-gray-300 ">
               <Menu />
-              <span className="underline underline-offset-2 ">
-                See the menu
+              <span className="underline cursor-pointer underline-offset-2 ">
+                <MenuDropdown names="See the menu" />
               </span>
             </div>
             <div className="flex items-center justify-start gap-[17px] font-roboto text-base md:text-xl text-[#232323] dark:text-gray-300 ">
