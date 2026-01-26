@@ -4,8 +4,6 @@ import MyFeedback from "@/src/modules/myFeedback";
 import LatestTrands from "@/src/modules/theLatestTrands";
 import RecentActivities from "../modules/recentActivities";
 import NavLinks from "../components/navLinks";
-import SearchBox from "../components/search";
-import SearchFilter from "../components/search";
 import { useMemo, useState } from "react";
 import { LatestCard } from "../restrurentDB/data";
 import { useSearch } from "../context/context";
