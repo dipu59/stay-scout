@@ -62,7 +62,6 @@ export default function Navbar() {
     return () => window.removeEventListener("scroll", handleScroll);
   }, []);
 
-  console.log("scroll:", window.scrollY);
 
   return (
     <nav
