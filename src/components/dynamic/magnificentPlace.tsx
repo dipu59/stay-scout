@@ -9,7 +9,7 @@ export default function MagnificentPlace() {
 
   return (
     <div className="max-w-[1100px] w-full mx-auto ">
-      <div className="px-2 lg:px-0">
+      <div className="px-3 lg:px-0">
         <h1 className=" text-[#1E1E1E] dark:text-gray-200 font-lexend font-semibold text-2xl md:text-[34px] mb-[13px] ">
           Discover our magnificent place in photos
         </h1>
