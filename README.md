@@ -1,19 +1,26 @@
 # StayScout 
 **Discover stays. Travel smarter.**
 
+After 2+ weeks of hard work, learning, debugging, and iterating,
+I’m thrilled to announce that I’ve completed building a Restaurant Feedback Website from scratch.
+
+
 StayScout is a modern travel discovery web application where users can explore top-rated restaurants, hotels, and places with a clean UI, smooth interactions, and performance-focused architecture.
 
-This project is built as a **real-world frontend + backend-ready portfolio project**, following industry best practices.
+This project was more than just UI design — my primary goal was to create a real-world, scalable frontend architecture.
 
 ---
 
 ##  Live Demo
-🔗 https://stayscout.vercel.app
+🔗 https://stay-scout.vercel.app
 
 ---
 
 ## 📌 Key Features
 -  Browse top-rated restaurants & stays
+-  Search restaurants by name & location
+-  Dynamic routing for individual restaurant pages
+-  Fully responsive across desktop, tablet, and mobile
 -  Smooth carousel/slider experience (Swiper.js)
 -  Ratings & reviews UI
 -  Fully responsive (mobile-first)
@@ -29,13 +36,9 @@ This project is built as a **real-world frontend + backend-ready portfolio proje
 - HeroUI / NextUI
 - Swiper.js (carousel)
 - SVG icons as React components (optimized)
+- Lucide Icons
+
   
-
-**Backend (planned / optional)**
-- Node.js + Express  
-- PostgreSQL  
-- Drizzle ORM  
-
 **Tools**
 - Figma (UI reference & assets)
 - Git & GitHub
@@ -66,7 +69,6 @@ This project is built as a **real-world frontend + backend-ready portfolio proje
 
 ##  Future Improvements
 -  Authentication (Login / Signup)
--  Map integration (Google Maps)
 -  Advanced search & filters
 -  Wishlist / favorites
 -  Backend API integration
@@ -79,6 +81,11 @@ Frontend Developer | React | Next.js
 
 -  Portfolio: https://dipubiswas.vercel.app 
 -  GitHub: https://github.com/dipu59
+
+---
+
+I’m always working on enhancing my frontend development skills and looking for frontend jobs, internships, or freelance work.
+Your feedback and recommendations are always appreciated 🙌
 
 ---
 
