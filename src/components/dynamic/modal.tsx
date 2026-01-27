@@ -13,7 +13,7 @@ import { Download } from "lucide-react";
 import Image from "next/image";
 import { useMemo, useState } from "react";
 
-export default function MenuDropdown({ names }: any) {
+export default function MenuDropdown({ names, menuName }: any) {
   const { isOpen, onOpen, onOpenChange } = useDisclosure();
   const [query, setQuery] = useState("");
   const [showSuggestion, setShowSuggestion] = useState(false);
@@ -29,7 +29,6 @@ export default function MenuDropdown({ names }: any) {
         item.dynamic.shortLocation.toLowerCase().includes(q),
     ).slice(0, 6);
   }, [query]);
-
 
   return (
     <>
@@ -63,15 +62,19 @@ export default function MenuDropdown({ names }: any) {
               <ModalBody>
                 <div className="flex flex-col gap-2 justify-center items-center ">
                   <h2 className="text-[#232323] dark:text-gray-200 font-lexend font-semibold text-2xl md:text-[32px] text-center ">
-                    Menu Bella Italia
+                    {menuName}
                   </h2>
                   <Button
-                    className="font-roboto text-base md:text-[19px] font-medium  flex  items-center rounded-[23.5px]"
+                    className="font-roboto md:py-7 py-5 px-5 text-base md:text-[19px] font-medium  flex  items-center rounded-[23.5px]"
                     variant="bordered"
                     color="primary"
                   >
                     {/* <Download /> */}
-                    <a className="flex gap-3 items-center" href="/dynamic/menu.png" download>
+                    <a
+                      className="flex gap-3 items-center"
+                      href="/dynamic/menu.png"
+                      download
+                    >
                       <Download />
                       Download this menu
                     </a>

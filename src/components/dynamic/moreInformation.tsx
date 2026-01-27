@@ -14,6 +14,7 @@ import MenuDropdown from "./modal";
 
 type MoreInformationProps = {
   restaurant: {
+    title:string;
     dynamic: {
       phone: string;
       shortLocation: string;
@@ -40,7 +41,10 @@ export default function MoreInformation({ restaurant }: MoreInformationProps) {
             <div className="flex items-center justify-start gap-[17px] font-roboto text-base md:text-xl text-[#232323] dark:text-gray-300 ">
               <Menu />
               <span className="underline cursor-pointer underline-offset-2 ">
-                <MenuDropdown names="See the menu" />
+                <MenuDropdown
+                  names="See the menu"
+                  menuName={`Menu ${restaurant.title} `}
+                />
               </span>
             </div>
             <div className="flex items-center justify-start gap-[17px] font-roboto text-base md:text-xl text-[#232323] dark:text-gray-300 ">

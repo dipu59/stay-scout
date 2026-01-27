@@ -33,7 +33,7 @@ export default function Hero({ restaurant }: HeroProps) {
         /
         <Link
           className="hover:underline hover:underline-offset-2 "
-          href={"Dynamic"}
+          href={`/restaurants/${restaurant.slug}`}
         >
           <span className="capitalize">
             {restaurant.slug.replace("-", " ")}

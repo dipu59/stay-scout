@@ -22,11 +22,12 @@ export default function LatestTrands({ data }: Props) {
       {/* card Section */}
       <div className="grid grid-cols-2 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-[6px] md:gap-[10px] px-2 lg:px-0 lg:gap-[20px]">
         {data.map((items, index) => (
-          <div
+          <Link
+            href={`/restaurants/${items.slug}`}
             key={index}
             className="max-w-[319px] mx-auto overflow-hidden hover:-translate-y-1 hover:scale-[1] hover:delay-150 cursor-pointer transition-all duration-300  bg-[#F8F8F8] dark:bg-[#0d1017] rounded-[14px] dark:hover:shadow-blue-950 border border-[#E6E6E6] hover:border-[#cfcfcf] dark:border-[#40434a]
     dark:hover:shadow-[0_20px_60px_-15px_rgba(56,189,248,0.45)]
-    dark:hover:border-[#2ea0d198] group"
+    dark:hover:border-[#2ea0d198] group active:scale-90 "
           >
             <div className="max-w-[319px] overflow-hidden max-h-[213px] rounded-[14px]">
               <img
@@ -59,7 +60,7 @@ export default function LatestTrands({ data }: Props) {
                 </div>
               </div>
             </div>
-          </div>
+          </Link>
         ))}
       </div>
 

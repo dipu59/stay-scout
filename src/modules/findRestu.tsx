@@ -17,11 +17,12 @@ export default function FindBestSection() {
 
   return (
     <section className="px-3 md:px-6 lg:px-0 mt-[40px] md:mt-[50px] lg:mt-[60px]">
-      <motion.div 
+      <motion.div
         initial={{ opacity: 0, y: 40 }}
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.8, ease: "easeInOut" }}
-        className="max-w-[1300px] mx-auto rounded-xl bg-[#1677BD] dark:bg-slate-950 px-4 md:px-6 py-5 md:py-10 dark:border-[0.7px] dark:border-slate-700 ">
+        className="max-w-[1300px] mx-auto rounded-xl bg-[#1677BD] dark:bg-slate-950 px-4 md:px-12 py-5 md:py-10 dark:border-[0.7px] dark:border-slate-700 "
+      >
         {/* Title */}
         <h2 className="text-white dark:text-gray-200 md:text-[32px] text-[18px] font-medium mb-4">
           Find the best restaurant ratings below
@@ -114,12 +115,12 @@ export default function FindBestSection() {
             ))}
 
             {/* Navigation buttons */}
-            <button className="prev-btn absolute left-0 top-1/2 -translate-y-1/2 z-10 bg-white/90 dark:bg-gray-800 p-2 rounded-full shadow">
-              <ChevronLeft size={18} />
+            <button className="prev-btn absolute left-3 top-1/2 cursor-pointer -translate-y-1/2 z-10 bg-white/90 dark:bg-gray-800 p-2 rounded-full shadow">
+              <ChevronLeft size={18} className="size-[18px] md:size-[30px] " />
             </button>
 
-            <button className="next-btn absolute right-0 top-1/2 -translate-y-1/2 z-10 bg-white/90 dark:bg-gray-800 p-2 rounded-full shadow">
-              <ChevronRight size={18} />
+            <button className="next-btn absolute right-3 cursor-pointer top-1/2 -translate-y-1/2 z-10 bg-white/90 dark:bg-gray-800 p-2 rounded-full shadow">
+              <ChevronRight size={18} className="size-[18px] md:size-[30px]" />
             </button>
           </Swiper>
         </div>
