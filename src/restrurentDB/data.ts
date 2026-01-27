@@ -20,14 +20,104 @@ export const LatestCard = [
       shortLocation: "Singapore, Bishan",
       shortTime: "7j/7, 08:00 - 22:00",
       websiteLink: "www.bellaitalia.com",
-      reviews: {
-        username: "Wei Jie",
-        location: "Singapore, Little India",
-        stars: "5",
-        date: "29/11/2023",
-        description:
-          "The handmade pasta and traditional recipes deliver an authentic Italian experience that lingers. Every course shows care in technique and sourcing, from starters to desserts. Service is attentive and knowledgeable, the atmosphere warm and welcoming, and the tiramisu stands out as a highlight that completes a truly satisfying dining occasion for all guests.",
-      },
+      reviews: [
+        {
+          username: "Hiroshi Tanaka",
+          location: "Singapore, Shenton Way",
+          stars: 5,
+          date: "08/11/2023",
+          description:
+            "Outstanding ramen where broth depth, noodle texture, and topping quality are consistently excellent. Each bowl is balanced and comforting, reflecting skillful preparation and respect for tradition. The staff maintains a friendly and efficient service rhythm even during busy hours. For anyone who appreciates authentic Japanese ramen, this restaurant delivers a satisfying and memorable culinary experience every visit.",
+        },
+        {
+          username: "Amelia Wright",
+          location: "London, Soho",
+          stars: 5,
+          date: "22/10/2023",
+          description:
+            "One of the most comforting dining experiences I’ve had this year. The ambiance is warm, the food arrives beautifully plated, and every bite feels intentional. Their signature dishes are bold yet balanced, and the service team makes you feel genuinely welcome. I would happily return again and again.",
+        },
+        {
+          username: "Carlos Mendez",
+          location: "Barcelona, El Raval",
+          stars: 4,
+          date: "02/09/2023",
+          description:
+            "Fantastic flavors and generous portions. The menu offers a great variety, and everything we tried felt freshly prepared. While it can get crowded in the evenings, the atmosphere remains lively and enjoyable. A great place to share good food with friends.",
+        },
+        {
+          username: "Ayesha Rahman",
+          location: "Dhaka, Gulshan",
+          stars: 5,
+          date: "18/11/2023",
+          description:
+            "From the first bite to the last, the experience was delightful. The spices are perfectly layered, not overpowering, and the presentation is beautiful. The staff was attentive without being intrusive. This place has quickly become one of my favorites in the city.",
+        },
+        {
+          username: "Liam O’Connor",
+          location: "Dublin, Temple Bar",
+          stars: 4,
+          date: "05/10/2023",
+          description:
+            "A cozy spot with a great vibe and consistently tasty dishes. You can tell a lot of care goes into the kitchen. The service is friendly, and the menu has something for everyone. Perfect for a relaxed dinner after a long day.",
+        },
+        {
+          username: "Sofia Rossi",
+          location: "Milan, Brera",
+          stars: 5,
+          date: "27/11/2023",
+          description:
+            "An elegant dining experience that still feels warm and approachable. Every dish is thoughtfully crafted, with flavors that linger pleasantly. The attention to detail, from décor to service, makes this restaurant truly special.",
+        },
+        {
+          username: "Daniel Kim",
+          location: "Seoul, Hongdae",
+          stars: 5,
+          date: "13/09/2023",
+          description:
+            "Incredible balance of flavors and textures. The food feels modern yet respectful of tradition. The atmosphere is relaxed, and the staff is quick and kind. Easily one of the best places I’ve visited this year.",
+        },
+        {
+          username: "Priya Sharma",
+          location: "New Delhi, Connaught Place",
+          stars: 4,
+          date: "30/10/2023",
+          description:
+            "A wonderful place for both casual meals and special occasions. The food is consistently good, and the service is smooth even when the restaurant is busy. I especially loved the chef’s specials.",
+        },
+        {
+          username: "Noah Peterson",
+          location: "Austin, Texas",
+          stars: 5,
+          date: "15/11/2023",
+          description:
+            "This place nails comfort food with a modern twist. Everything tasted fresh, and the portions were just right. The staff was friendly and made the whole experience even better. Highly recommended.",
+        },
+        {
+          username: "Fatima Al-Zahra",
+          location: "Dubai, Jumeirah",
+          stars: 5,
+          date: "09/12/2023",
+          description:
+            "Absolutely stunning food and atmosphere. Each dish is flavorful, well-presented, and memorable. The service team goes above and beyond to ensure a wonderful dining experience.",
+        },
+        {
+          username: "Lucas Martin",
+          location: "Paris, Le Marais",
+          stars: 4,
+          date: "19/09/2023",
+          description:
+            "Charming ambiance and delicious food. The flavors are subtle yet rich, and the menu feels thoughtfully curated. A great place to unwind and enjoy a quality meal.",
+        },
+        {
+          username: "Mei Chen",
+          location: "Taipei, Xinyi",
+          stars: 5,
+          date: "01/12/2023",
+          description:
+            "Every visit feels special. The food is consistently excellent, with beautiful presentation and deep flavors. The staff is warm and attentive, making this a place I always recommend to friends.",
+        },
+      ],
     },
   },
   {
@@ -49,14 +139,104 @@ export const LatestCard = [
       shortLocation: "Singapore, Marina Bay",
       shortTime: "7j/7, 11:00 - 23:00",
       websiteLink: "www.littleshucker.com",
-      reviews: {
-        username: "Sarah Lee",
-        location: "Singapore, Downtown",
-        stars: "4",
-        date: "15/11/2023",
-        description:
-          "Fresh oysters with impeccable presentation and attentive service create a delightful dining experience. The variety of shellfish and accompanying sauces are thoughtfully chosen to complement each selection. While prices are somewhat premium, the overall quality and care justify the cost. This spot is perfect for seafood lovers seeking freshness, atmosphere, and a place to celebrate special moments.",
-      },
+      reviews: [
+        {
+          username: "Hiroshi Tanaka",
+          location: "Singapore, Shenton Way",
+          stars: 5,
+          date: "08/11/2023",
+          description:
+            "Outstanding ramen where broth depth, noodle texture, and topping quality are consistently excellent. Each bowl is balanced and comforting, reflecting skillful preparation and respect for tradition. The staff maintains a friendly and efficient service rhythm even during busy hours. For anyone who appreciates authentic Japanese ramen, this restaurant delivers a satisfying and memorable culinary experience every visit.",
+        },
+        {
+          username: "Amelia Wright",
+          location: "London, Soho",
+          stars: 5,
+          date: "22/10/2023",
+          description:
+            "One of the most comforting dining experiences I’ve had this year. The ambiance is warm, the food arrives beautifully plated, and every bite feels intentional. Their signature dishes are bold yet balanced, and the service team makes you feel genuinely welcome. I would happily return again and again.",
+        },
+        {
+          username: "Carlos Mendez",
+          location: "Barcelona, El Raval",
+          stars: 4,
+          date: "02/09/2023",
+          description:
+            "Fantastic flavors and generous portions. The menu offers a great variety, and everything we tried felt freshly prepared. While it can get crowded in the evenings, the atmosphere remains lively and enjoyable. A great place to share good food with friends.",
+        },
+        {
+          username: "Ayesha Rahman",
+          location: "Dhaka, Gulshan",
+          stars: 5,
+          date: "18/11/2023",
+          description:
+            "From the first bite to the last, the experience was delightful. The spices are perfectly layered, not overpowering, and the presentation is beautiful. The staff was attentive without being intrusive. This place has quickly become one of my favorites in the city.",
+        },
+        {
+          username: "Liam O’Connor",
+          location: "Dublin, Temple Bar",
+          stars: 4,
+          date: "05/10/2023",
+          description:
+            "A cozy spot with a great vibe and consistently tasty dishes. You can tell a lot of care goes into the kitchen. The service is friendly, and the menu has something for everyone. Perfect for a relaxed dinner after a long day.",
+        },
+        {
+          username: "Sofia Rossi",
+          location: "Milan, Brera",
+          stars: 5,
+          date: "27/11/2023",
+          description:
+            "An elegant dining experience that still feels warm and approachable. Every dish is thoughtfully crafted, with flavors that linger pleasantly. The attention to detail, from décor to service, makes this restaurant truly special.",
+        },
+        {
+          username: "Daniel Kim",
+          location: "Seoul, Hongdae",
+          stars: 5,
+          date: "13/09/2023",
+          description:
+            "Incredible balance of flavors and textures. The food feels modern yet respectful of tradition. The atmosphere is relaxed, and the staff is quick and kind. Easily one of the best places I’ve visited this year.",
+        },
+        {
+          username: "Priya Sharma",
+          location: "New Delhi, Connaught Place",
+          stars: 4,
+          date: "30/10/2023",
+          description:
+            "A wonderful place for both casual meals and special occasions. The food is consistently good, and the service is smooth even when the restaurant is busy. I especially loved the chef’s specials.",
+        },
+        {
+          username: "Noah Peterson",
+          location: "Austin, Texas",
+          stars: 5,
+          date: "15/11/2023",
+          description:
+            "This place nails comfort food with a modern twist. Everything tasted fresh, and the portions were just right. The staff was friendly and made the whole experience even better. Highly recommended.",
+        },
+        {
+          username: "Fatima Al-Zahra",
+          location: "Dubai, Jumeirah",
+          stars: 5,
+          date: "09/12/2023",
+          description:
+            "Absolutely stunning food and atmosphere. Each dish is flavorful, well-presented, and memorable. The service team goes above and beyond to ensure a wonderful dining experience.",
+        },
+        {
+          username: "Lucas Martin",
+          location: "Paris, Le Marais",
+          stars: 4,
+          date: "19/09/2023",
+          description:
+            "Charming ambiance and delicious food. The flavors are subtle yet rich, and the menu feels thoughtfully curated. A great place to unwind and enjoy a quality meal.",
+        },
+        {
+          username: "Mei Chen",
+          location: "Taipei, Xinyi",
+          stars: 5,
+          date: "01/12/2023",
+          description:
+            "Every visit feels special. The food is consistently excellent, with beautiful presentation and deep flavors. The staff is warm and attentive, making this a place I always recommend to friends.",
+        },
+      ],
     },
   },
   {
@@ -78,14 +258,104 @@ export const LatestCard = [
       shortLocation: "Singapore, Orchard",
       shortTime: "7j/7, 10:00 - 21:00",
       websiteLink: "www.marafukuramen.com",
-      reviews: {
-        username: "Hiroshi Tanaka",
-        location: "Singapore, Shenton Way",
-        stars: "5",
-        date: "08/11/2023",
-        description:
-          "Outstanding ramen where broth depth, noodle texture, and topping quality are consistently excellent. Each bowl is balanced and comforting, reflecting skillful preparation and respect for tradition. The staff maintains a friendly and efficient service rhythm even during busy hours. For anyone who appreciates authentic Japanese ramen, this restaurant delivers a satisfying and memorable culinary experience every visit.",
-      },
+      reviews: [
+        {
+          username: "Hiroshi Tanaka",
+          location: "Singapore, Shenton Way",
+          stars: 5,
+          date: "08/11/2023",
+          description:
+            "Outstanding ramen where broth depth, noodle texture, and topping quality are consistently excellent. Each bowl is balanced and comforting, reflecting skillful preparation and respect for tradition. The staff maintains a friendly and efficient service rhythm even during busy hours. For anyone who appreciates authentic Japanese ramen, this restaurant delivers a satisfying and memorable culinary experience every visit.",
+        },
+        {
+          username: "Amelia Wright",
+          location: "London, Soho",
+          stars: 5,
+          date: "22/10/2023",
+          description:
+            "One of the most comforting dining experiences I’ve had this year. The ambiance is warm, the food arrives beautifully plated, and every bite feels intentional. Their signature dishes are bold yet balanced, and the service team makes you feel genuinely welcome. I would happily return again and again.",
+        },
+        {
+          username: "Carlos Mendez",
+          location: "Barcelona, El Raval",
+          stars: 4,
+          date: "02/09/2023",
+          description:
+            "Fantastic flavors and generous portions. The menu offers a great variety, and everything we tried felt freshly prepared. While it can get crowded in the evenings, the atmosphere remains lively and enjoyable. A great place to share good food with friends.",
+        },
+        {
+          username: "Ayesha Rahman",
+          location: "Dhaka, Gulshan",
+          stars: 5,
+          date: "18/11/2023",
+          description:
+            "From the first bite to the last, the experience was delightful. The spices are perfectly layered, not overpowering, and the presentation is beautiful. The staff was attentive without being intrusive. This place has quickly become one of my favorites in the city.",
+        },
+        {
+          username: "Liam O’Connor",
+          location: "Dublin, Temple Bar",
+          stars: 4,
+          date: "05/10/2023",
+          description:
+            "A cozy spot with a great vibe and consistently tasty dishes. You can tell a lot of care goes into the kitchen. The service is friendly, and the menu has something for everyone. Perfect for a relaxed dinner after a long day.",
+        },
+        {
+          username: "Sofia Rossi",
+          location: "Milan, Brera",
+          stars: 5,
+          date: "27/11/2023",
+          description:
+            "An elegant dining experience that still feels warm and approachable. Every dish is thoughtfully crafted, with flavors that linger pleasantly. The attention to detail, from décor to service, makes this restaurant truly special.",
+        },
+        {
+          username: "Daniel Kim",
+          location: "Seoul, Hongdae",
+          stars: 5,
+          date: "13/09/2023",
+          description:
+            "Incredible balance of flavors and textures. The food feels modern yet respectful of tradition. The atmosphere is relaxed, and the staff is quick and kind. Easily one of the best places I’ve visited this year.",
+        },
+        {
+          username: "Priya Sharma",
+          location: "New Delhi, Connaught Place",
+          stars: 4,
+          date: "30/10/2023",
+          description:
+            "A wonderful place for both casual meals and special occasions. The food is consistently good, and the service is smooth even when the restaurant is busy. I especially loved the chef’s specials.",
+        },
+        {
+          username: "Noah Peterson",
+          location: "Austin, Texas",
+          stars: 5,
+          date: "15/11/2023",
+          description:
+            "This place nails comfort food with a modern twist. Everything tasted fresh, and the portions were just right. The staff was friendly and made the whole experience even better. Highly recommended.",
+        },
+        {
+          username: "Fatima Al-Zahra",
+          location: "Dubai, Jumeirah",
+          stars: 5,
+          date: "09/12/2023",
+          description:
+            "Absolutely stunning food and atmosphere. Each dish is flavorful, well-presented, and memorable. The service team goes above and beyond to ensure a wonderful dining experience.",
+        },
+        {
+          username: "Lucas Martin",
+          location: "Paris, Le Marais",
+          stars: 4,
+          date: "19/09/2023",
+          description:
+            "Charming ambiance and delicious food. The flavors are subtle yet rich, and the menu feels thoughtfully curated. A great place to unwind and enjoy a quality meal.",
+        },
+        {
+          username: "Mei Chen",
+          location: "Taipei, Xinyi",
+          stars: 5,
+          date: "01/12/2023",
+          description:
+            "Every visit feels special. The food is consistently excellent, with beautiful presentation and deep flavors. The staff is warm and attentive, making this a place I always recommend to friends.",
+        },
+      ],
     },
   },
   {
@@ -107,14 +377,104 @@ export const LatestCard = [
       shortLocation: "Singapore, Sentosa",
       shortTime: "7j/7, 12:00 - 23:00",
       websiteLink: "www.bottega.sg",
-      reviews: {
-        username: "Maria Rossi",
-        location: "Singapore, Jurong",
-        stars: "4",
-        date: "22/10/2023",
-        description:
-          "The seasonal menu is inventive and the wine selection impressive, offering pairings that elevate each dish. Presentation is elegant and thoughtful, though service speed can vary on busy nights. Overall, the restaurant provides a refined dining atmosphere suited for special occasions, where culinary creativity and ambiance come together to create a memorable evening for guests seeking contemporary Italian fare.",
-      },
+      reviews: [
+        {
+          username: "Hiroshi Tanaka",
+          location: "Singapore, Shenton Way",
+          stars: 5,
+          date: "08/11/2023",
+          description:
+            "Outstanding ramen where broth depth, noodle texture, and topping quality are consistently excellent. Each bowl is balanced and comforting, reflecting skillful preparation and respect for tradition. The staff maintains a friendly and efficient service rhythm even during busy hours. For anyone who appreciates authentic Japanese ramen, this restaurant delivers a satisfying and memorable culinary experience every visit.",
+        },
+        {
+          username: "Amelia Wright",
+          location: "London, Soho",
+          stars: 5,
+          date: "22/10/2023",
+          description:
+            "One of the most comforting dining experiences I’ve had this year. The ambiance is warm, the food arrives beautifully plated, and every bite feels intentional. Their signature dishes are bold yet balanced, and the service team makes you feel genuinely welcome. I would happily return again and again.",
+        },
+        {
+          username: "Carlos Mendez",
+          location: "Barcelona, El Raval",
+          stars: 4,
+          date: "02/09/2023",
+          description:
+            "Fantastic flavors and generous portions. The menu offers a great variety, and everything we tried felt freshly prepared. While it can get crowded in the evenings, the atmosphere remains lively and enjoyable. A great place to share good food with friends.",
+        },
+        {
+          username: "Ayesha Rahman",
+          location: "Dhaka, Gulshan",
+          stars: 5,
+          date: "18/11/2023",
+          description:
+            "From the first bite to the last, the experience was delightful. The spices are perfectly layered, not overpowering, and the presentation is beautiful. The staff was attentive without being intrusive. This place has quickly become one of my favorites in the city.",
+        },
+        {
+          username: "Liam O’Connor",
+          location: "Dublin, Temple Bar",
+          stars: 4,
+          date: "05/10/2023",
+          description:
+            "A cozy spot with a great vibe and consistently tasty dishes. You can tell a lot of care goes into the kitchen. The service is friendly, and the menu has something for everyone. Perfect for a relaxed dinner after a long day.",
+        },
+        {
+          username: "Sofia Rossi",
+          location: "Milan, Brera",
+          stars: 5,
+          date: "27/11/2023",
+          description:
+            "An elegant dining experience that still feels warm and approachable. Every dish is thoughtfully crafted, with flavors that linger pleasantly. The attention to detail, from décor to service, makes this restaurant truly special.",
+        },
+        {
+          username: "Daniel Kim",
+          location: "Seoul, Hongdae",
+          stars: 5,
+          date: "13/09/2023",
+          description:
+            "Incredible balance of flavors and textures. The food feels modern yet respectful of tradition. The atmosphere is relaxed, and the staff is quick and kind. Easily one of the best places I’ve visited this year.",
+        },
+        {
+          username: "Priya Sharma",
+          location: "New Delhi, Connaught Place",
+          stars: 4,
+          date: "30/10/2023",
+          description:
+            "A wonderful place for both casual meals and special occasions. The food is consistently good, and the service is smooth even when the restaurant is busy. I especially loved the chef’s specials.",
+        },
+        {
+          username: "Noah Peterson",
+          location: "Austin, Texas",
+          stars: 5,
+          date: "15/11/2023",
+          description:
+            "This place nails comfort food with a modern twist. Everything tasted fresh, and the portions were just right. The staff was friendly and made the whole experience even better. Highly recommended.",
+        },
+        {
+          username: "Fatima Al-Zahra",
+          location: "Dubai, Jumeirah",
+          stars: 5,
+          date: "09/12/2023",
+          description:
+            "Absolutely stunning food and atmosphere. Each dish is flavorful, well-presented, and memorable. The service team goes above and beyond to ensure a wonderful dining experience.",
+        },
+        {
+          username: "Lucas Martin",
+          location: "Paris, Le Marais",
+          stars: 4,
+          date: "19/09/2023",
+          description:
+            "Charming ambiance and delicious food. The flavors are subtle yet rich, and the menu feels thoughtfully curated. A great place to unwind and enjoy a quality meal.",
+        },
+        {
+          username: "Mei Chen",
+          location: "Taipei, Xinyi",
+          stars: 5,
+          date: "01/12/2023",
+          description:
+            "Every visit feels special. The food is consistently excellent, with beautiful presentation and deep flavors. The staff is warm and attentive, making this a place I always recommend to friends.",
+        },
+      ],
     },
   },
   {
@@ -136,14 +496,104 @@ export const LatestCard = [
       shortLocation: "Singapore, Arab Street",
       shortTime: "7j/7, 11:00 - 00:00",
       websiteLink: "www.arabianights.sg",
-      reviews: {
-        username: "Ahmed Hassan",
-        location: "Singapore, Geylang",
-        stars: "5",
-        date: "10/11/2023",
-        description:
-          "A rich and authentic dining experience with robust flavors, generous portions, and warm hospitality that transports guests to the heart of Middle Eastern cuisine. The service is welcoming and the ambiance lively, perfect for gatherings and celebrations. Each bite reveals traditional techniques and fragrant spices, leaving diners with lasting impressions and a desire to return for more.",
-      },
+      reviews: [
+        {
+          username: "Hiroshi Tanaka",
+          location: "Singapore, Shenton Way",
+          stars: 5,
+          date: "08/11/2023",
+          description:
+            "Outstanding ramen where broth depth, noodle texture, and topping quality are consistently excellent. Each bowl is balanced and comforting, reflecting skillful preparation and respect for tradition. The staff maintains a friendly and efficient service rhythm even during busy hours. For anyone who appreciates authentic Japanese ramen, this restaurant delivers a satisfying and memorable culinary experience every visit.",
+        },
+        {
+          username: "Amelia Wright",
+          location: "London, Soho",
+          stars: 5,
+          date: "22/10/2023",
+          description:
+            "One of the most comforting dining experiences I’ve had this year. The ambiance is warm, the food arrives beautifully plated, and every bite feels intentional. Their signature dishes are bold yet balanced, and the service team makes you feel genuinely welcome. I would happily return again and again.",
+        },
+        {
+          username: "Carlos Mendez",
+          location: "Barcelona, El Raval",
+          stars: 4,
+          date: "02/09/2023",
+          description:
+            "Fantastic flavors and generous portions. The menu offers a great variety, and everything we tried felt freshly prepared. While it can get crowded in the evenings, the atmosphere remains lively and enjoyable. A great place to share good food with friends.",
+        },
+        {
+          username: "Ayesha Rahman",
+          location: "Dhaka, Gulshan",
+          stars: 5,
+          date: "18/11/2023",
+          description:
+            "From the first bite to the last, the experience was delightful. The spices are perfectly layered, not overpowering, and the presentation is beautiful. The staff was attentive without being intrusive. This place has quickly become one of my favorites in the city.",
+        },
+        {
+          username: "Liam O’Connor",
+          location: "Dublin, Temple Bar",
+          stars: 4,
+          date: "05/10/2023",
+          description:
+            "A cozy spot with a great vibe and consistently tasty dishes. You can tell a lot of care goes into the kitchen. The service is friendly, and the menu has something for everyone. Perfect for a relaxed dinner after a long day.",
+        },
+        {
+          username: "Sofia Rossi",
+          location: "Milan, Brera",
+          stars: 5,
+          date: "27/11/2023",
+          description:
+            "An elegant dining experience that still feels warm and approachable. Every dish is thoughtfully crafted, with flavors that linger pleasantly. The attention to detail, from décor to service, makes this restaurant truly special.",
+        },
+        {
+          username: "Daniel Kim",
+          location: "Seoul, Hongdae",
+          stars: 5,
+          date: "13/09/2023",
+          description:
+            "Incredible balance of flavors and textures. The food feels modern yet respectful of tradition. The atmosphere is relaxed, and the staff is quick and kind. Easily one of the best places I’ve visited this year.",
+        },
+        {
+          username: "Priya Sharma",
+          location: "New Delhi, Connaught Place",
+          stars: 4,
+          date: "30/10/2023",
+          description:
+            "A wonderful place for both casual meals and special occasions. The food is consistently good, and the service is smooth even when the restaurant is busy. I especially loved the chef’s specials.",
+        },
+        {
+          username: "Noah Peterson",
+          location: "Austin, Texas",
+          stars: 5,
+          date: "15/11/2023",
+          description:
+            "This place nails comfort food with a modern twist. Everything tasted fresh, and the portions were just right. The staff was friendly and made the whole experience even better. Highly recommended.",
+        },
+        {
+          username: "Fatima Al-Zahra",
+          location: "Dubai, Jumeirah",
+          stars: 5,
+          date: "09/12/2023",
+          description:
+            "Absolutely stunning food and atmosphere. Each dish is flavorful, well-presented, and memorable. The service team goes above and beyond to ensure a wonderful dining experience.",
+        },
+        {
+          username: "Lucas Martin",
+          location: "Paris, Le Marais",
+          stars: 4,
+          date: "19/09/2023",
+          description:
+            "Charming ambiance and delicious food. The flavors are subtle yet rich, and the menu feels thoughtfully curated. A great place to unwind and enjoy a quality meal.",
+        },
+        {
+          username: "Mei Chen",
+          location: "Taipei, Xinyi",
+          stars: 5,
+          date: "01/12/2023",
+          description:
+            "Every visit feels special. The food is consistently excellent, with beautiful presentation and deep flavors. The staff is warm and attentive, making this a place I always recommend to friends.",
+        },
+      ],
     },
   },
   {
@@ -165,14 +615,104 @@ export const LatestCard = [
       shortLocation: "Singapore, Tampines",
       shortTime: "7j/7, 10:00 - 22:00",
       websiteLink: "www.lokma.sg",
-      reviews: {
-        username: "Fatima Oz",
-        location: "Singapore, Clementi",
-        stars: "5",
-        date: "05/11/2023",
-        description:
-          "Exceptional Turkish dishes showcase a wide variety of flavors, from savory meze to delightful desserts, all served with genuine hospitality. The meze selection is thoughtfully curated, and the service consistently attentive. This establishment delivers authentic culinary traditions in a refined atmosphere, making it a standout option for anyone seeking an elevated Mediterranean dining experience with both flair and comfort.",
-      },
+      reviews: [
+        {
+          username: "Hiroshi Tanaka",
+          location: "Singapore, Shenton Way",
+          stars: 5,
+          date: "08/11/2023",
+          description:
+            "Outstanding ramen where broth depth, noodle texture, and topping quality are consistently excellent. Each bowl is balanced and comforting, reflecting skillful preparation and respect for tradition. The staff maintains a friendly and efficient service rhythm even during busy hours. For anyone who appreciates authentic Japanese ramen, this restaurant delivers a satisfying and memorable culinary experience every visit.",
+        },
+        {
+          username: "Amelia Wright",
+          location: "London, Soho",
+          stars: 5,
+          date: "22/10/2023",
+          description:
+            "One of the most comforting dining experiences I’ve had this year. The ambiance is warm, the food arrives beautifully plated, and every bite feels intentional. Their signature dishes are bold yet balanced, and the service team makes you feel genuinely welcome. I would happily return again and again.",
+        },
+        {
+          username: "Carlos Mendez",
+          location: "Barcelona, El Raval",
+          stars: 4,
+          date: "02/09/2023",
+          description:
+            "Fantastic flavors and generous portions. The menu offers a great variety, and everything we tried felt freshly prepared. While it can get crowded in the evenings, the atmosphere remains lively and enjoyable. A great place to share good food with friends.",
+        },
+        {
+          username: "Ayesha Rahman",
+          location: "Dhaka, Gulshan",
+          stars: 5,
+          date: "18/11/2023",
+          description:
+            "From the first bite to the last, the experience was delightful. The spices are perfectly layered, not overpowering, and the presentation is beautiful. The staff was attentive without being intrusive. This place has quickly become one of my favorites in the city.",
+        },
+        {
+          username: "Liam O’Connor",
+          location: "Dublin, Temple Bar",
+          stars: 4,
+          date: "05/10/2023",
+          description:
+            "A cozy spot with a great vibe and consistently tasty dishes. You can tell a lot of care goes into the kitchen. The service is friendly, and the menu has something for everyone. Perfect for a relaxed dinner after a long day.",
+        },
+        {
+          username: "Sofia Rossi",
+          location: "Milan, Brera",
+          stars: 5,
+          date: "27/11/2023",
+          description:
+            "An elegant dining experience that still feels warm and approachable. Every dish is thoughtfully crafted, with flavors that linger pleasantly. The attention to detail, from décor to service, makes this restaurant truly special.",
+        },
+        {
+          username: "Daniel Kim",
+          location: "Seoul, Hongdae",
+          stars: 5,
+          date: "13/09/2023",
+          description:
+            "Incredible balance of flavors and textures. The food feels modern yet respectful of tradition. The atmosphere is relaxed, and the staff is quick and kind. Easily one of the best places I’ve visited this year.",
+        },
+        {
+          username: "Priya Sharma",
+          location: "New Delhi, Connaught Place",
+          stars: 4,
+          date: "30/10/2023",
+          description:
+            "A wonderful place for both casual meals and special occasions. The food is consistently good, and the service is smooth even when the restaurant is busy. I especially loved the chef’s specials.",
+        },
+        {
+          username: "Noah Peterson",
+          location: "Austin, Texas",
+          stars: 5,
+          date: "15/11/2023",
+          description:
+            "This place nails comfort food with a modern twist. Everything tasted fresh, and the portions were just right. The staff was friendly and made the whole experience even better. Highly recommended.",
+        },
+        {
+          username: "Fatima Al-Zahra",
+          location: "Dubai, Jumeirah",
+          stars: 5,
+          date: "09/12/2023",
+          description:
+            "Absolutely stunning food and atmosphere. Each dish is flavorful, well-presented, and memorable. The service team goes above and beyond to ensure a wonderful dining experience.",
+        },
+        {
+          username: "Lucas Martin",
+          location: "Paris, Le Marais",
+          stars: 4,
+          date: "19/09/2023",
+          description:
+            "Charming ambiance and delicious food. The flavors are subtle yet rich, and the menu feels thoughtfully curated. A great place to unwind and enjoy a quality meal.",
+        },
+        {
+          username: "Mei Chen",
+          location: "Taipei, Xinyi",
+          stars: 5,
+          date: "01/12/2023",
+          description:
+            "Every visit feels special. The food is consistently excellent, with beautiful presentation and deep flavors. The staff is warm and attentive, making this a place I always recommend to friends.",
+        },
+      ],
     },
   },
   {
@@ -194,14 +734,104 @@ export const LatestCard = [
       shortLocation: "Singapore, Clarke Quay",
       shortTime: "7j/7, 16:00 - 02:00",
       websiteLink: "www.thesnug.sg",
-      reviews: {
-        username: "James Wilson",
-        location: "Singapore, CBD",
-        stars: "4",
-        date: "28/10/2023",
-        description:
-          "A lively pub with an excellent offering of craft beers and comforting dishes that hit the spot after a long day. The atmosphere is welcoming and energetic, the staff friendly, and the menu approachable. It’s a dependable choice for groups and casual nights out where guests can enjoy flavorful comfort food and thoughtful beverage pairings in a relaxed environment.",
-      },
+      reviews: [
+        {
+          username: "Hiroshi Tanaka",
+          location: "Singapore, Shenton Way",
+          stars: 5,
+          date: "08/11/2023",
+          description:
+            "Outstanding ramen where broth depth, noodle texture, and topping quality are consistently excellent. Each bowl is balanced and comforting, reflecting skillful preparation and respect for tradition. The staff maintains a friendly and efficient service rhythm even during busy hours. For anyone who appreciates authentic Japanese ramen, this restaurant delivers a satisfying and memorable culinary experience every visit.",
+        },
+        {
+          username: "Amelia Wright",
+          location: "London, Soho",
+          stars: 5,
+          date: "22/10/2023",
+          description:
+            "One of the most comforting dining experiences I’ve had this year. The ambiance is warm, the food arrives beautifully plated, and every bite feels intentional. Their signature dishes are bold yet balanced, and the service team makes you feel genuinely welcome. I would happily return again and again.",
+        },
+        {
+          username: "Carlos Mendez",
+          location: "Barcelona, El Raval",
+          stars: 4,
+          date: "02/09/2023",
+          description:
+            "Fantastic flavors and generous portions. The menu offers a great variety, and everything we tried felt freshly prepared. While it can get crowded in the evenings, the atmosphere remains lively and enjoyable. A great place to share good food with friends.",
+        },
+        {
+          username: "Ayesha Rahman",
+          location: "Dhaka, Gulshan",
+          stars: 5,
+          date: "18/11/2023",
+          description:
+            "From the first bite to the last, the experience was delightful. The spices are perfectly layered, not overpowering, and the presentation is beautiful. The staff was attentive without being intrusive. This place has quickly become one of my favorites in the city.",
+        },
+        {
+          username: "Liam O’Connor",
+          location: "Dublin, Temple Bar",
+          stars: 4,
+          date: "05/10/2023",
+          description:
+            "A cozy spot with a great vibe and consistently tasty dishes. You can tell a lot of care goes into the kitchen. The service is friendly, and the menu has something for everyone. Perfect for a relaxed dinner after a long day.",
+        },
+        {
+          username: "Sofia Rossi",
+          location: "Milan, Brera",
+          stars: 5,
+          date: "27/11/2023",
+          description:
+            "An elegant dining experience that still feels warm and approachable. Every dish is thoughtfully crafted, with flavors that linger pleasantly. The attention to detail, from décor to service, makes this restaurant truly special.",
+        },
+        {
+          username: "Daniel Kim",
+          location: "Seoul, Hongdae",
+          stars: 5,
+          date: "13/09/2023",
+          description:
+            "Incredible balance of flavors and textures. The food feels modern yet respectful of tradition. The atmosphere is relaxed, and the staff is quick and kind. Easily one of the best places I’ve visited this year.",
+        },
+        {
+          username: "Priya Sharma",
+          location: "New Delhi, Connaught Place",
+          stars: 4,
+          date: "30/10/2023",
+          description:
+            "A wonderful place for both casual meals and special occasions. The food is consistently good, and the service is smooth even when the restaurant is busy. I especially loved the chef’s specials.",
+        },
+        {
+          username: "Noah Peterson",
+          location: "Austin, Texas",
+          stars: 5,
+          date: "15/11/2023",
+          description:
+            "This place nails comfort food with a modern twist. Everything tasted fresh, and the portions were just right. The staff was friendly and made the whole experience even better. Highly recommended.",
+        },
+        {
+          username: "Fatima Al-Zahra",
+          location: "Dubai, Jumeirah",
+          stars: 5,
+          date: "09/12/2023",
+          description:
+            "Absolutely stunning food and atmosphere. Each dish is flavorful, well-presented, and memorable. The service team goes above and beyond to ensure a wonderful dining experience.",
+        },
+        {
+          username: "Lucas Martin",
+          location: "Paris, Le Marais",
+          stars: 4,
+          date: "19/09/2023",
+          description:
+            "Charming ambiance and delicious food. The flavors are subtle yet rich, and the menu feels thoughtfully curated. A great place to unwind and enjoy a quality meal.",
+        },
+        {
+          username: "Mei Chen",
+          location: "Taipei, Xinyi",
+          stars: 5,
+          date: "01/12/2023",
+          description:
+            "Every visit feels special. The food is consistently excellent, with beautiful presentation and deep flavors. The staff is warm and attentive, making this a place I always recommend to friends.",
+        },
+      ],
     },
   },
   {
@@ -223,14 +853,104 @@ export const LatestCard = [
       shortLocation: "Singapore, Bukit Timah",
       shortTime: "7j/7, 11:30 - 22:30",
       websiteLink: "www.starbelly.sg",
-      reviews: {
-        username: "Emma Green",
-        location: "Singapore, Holland Village",
-        stars: "5",
-        date: "12/11/2023",
-        description:
-          "Thoughtful farm-to-table execution with fresh seasonal ingredients and artful plating that celebrates local producers. Each dish highlights flavor clarity and sustainable practices, offering diners a satisfying experience that aligns with conscious dining values. The culinary team’s creativity and commitment to quality make this restaurant a standout choice for guests seeking both delicious food and ethical sourcing.",
-      },
+      reviews: [
+        {
+          username: "Hiroshi Tanaka",
+          location: "Singapore, Shenton Way",
+          stars: 5,
+          date: "08/11/2023",
+          description:
+            "Outstanding ramen where broth depth, noodle texture, and topping quality are consistently excellent. Each bowl is balanced and comforting, reflecting skillful preparation and respect for tradition. The staff maintains a friendly and efficient service rhythm even during busy hours. For anyone who appreciates authentic Japanese ramen, this restaurant delivers a satisfying and memorable culinary experience every visit.",
+        },
+        {
+          username: "Amelia Wright",
+          location: "London, Soho",
+          stars: 5,
+          date: "22/10/2023",
+          description:
+            "One of the most comforting dining experiences I’ve had this year. The ambiance is warm, the food arrives beautifully plated, and every bite feels intentional. Their signature dishes are bold yet balanced, and the service team makes you feel genuinely welcome. I would happily return again and again.",
+        },
+        {
+          username: "Carlos Mendez",
+          location: "Barcelona, El Raval",
+          stars: 4,
+          date: "02/09/2023",
+          description:
+            "Fantastic flavors and generous portions. The menu offers a great variety, and everything we tried felt freshly prepared. While it can get crowded in the evenings, the atmosphere remains lively and enjoyable. A great place to share good food with friends.",
+        },
+        {
+          username: "Ayesha Rahman",
+          location: "Dhaka, Gulshan",
+          stars: 5,
+          date: "18/11/2023",
+          description:
+            "From the first bite to the last, the experience was delightful. The spices are perfectly layered, not overpowering, and the presentation is beautiful. The staff was attentive without being intrusive. This place has quickly become one of my favorites in the city.",
+        },
+        {
+          username: "Liam O’Connor",
+          location: "Dublin, Temple Bar",
+          stars: 4,
+          date: "05/10/2023",
+          description:
+            "A cozy spot with a great vibe and consistently tasty dishes. You can tell a lot of care goes into the kitchen. The service is friendly, and the menu has something for everyone. Perfect for a relaxed dinner after a long day.",
+        },
+        {
+          username: "Sofia Rossi",
+          location: "Milan, Brera",
+          stars: 5,
+          date: "27/11/2023",
+          description:
+            "An elegant dining experience that still feels warm and approachable. Every dish is thoughtfully crafted, with flavors that linger pleasantly. The attention to detail, from décor to service, makes this restaurant truly special.",
+        },
+        {
+          username: "Daniel Kim",
+          location: "Seoul, Hongdae",
+          stars: 5,
+          date: "13/09/2023",
+          description:
+            "Incredible balance of flavors and textures. The food feels modern yet respectful of tradition. The atmosphere is relaxed, and the staff is quick and kind. Easily one of the best places I’ve visited this year.",
+        },
+        {
+          username: "Priya Sharma",
+          location: "New Delhi, Connaught Place",
+          stars: 4,
+          date: "30/10/2023",
+          description:
+            "A wonderful place for both casual meals and special occasions. The food is consistently good, and the service is smooth even when the restaurant is busy. I especially loved the chef’s specials.",
+        },
+        {
+          username: "Noah Peterson",
+          location: "Austin, Texas",
+          stars: 5,
+          date: "15/11/2023",
+          description:
+            "This place nails comfort food with a modern twist. Everything tasted fresh, and the portions were just right. The staff was friendly and made the whole experience even better. Highly recommended.",
+        },
+        {
+          username: "Fatima Al-Zahra",
+          location: "Dubai, Jumeirah",
+          stars: 5,
+          date: "09/12/2023",
+          description:
+            "Absolutely stunning food and atmosphere. Each dish is flavorful, well-presented, and memorable. The service team goes above and beyond to ensure a wonderful dining experience.",
+        },
+        {
+          username: "Lucas Martin",
+          location: "Paris, Le Marais",
+          stars: 4,
+          date: "19/09/2023",
+          description:
+            "Charming ambiance and delicious food. The flavors are subtle yet rich, and the menu feels thoughtfully curated. A great place to unwind and enjoy a quality meal.",
+        },
+        {
+          username: "Mei Chen",
+          location: "Taipei, Xinyi",
+          stars: 5,
+          date: "01/12/2023",
+          description:
+            "Every visit feels special. The food is consistently excellent, with beautiful presentation and deep flavors. The staff is warm and attentive, making this a place I always recommend to friends.",
+        },
+      ],
     },
   },
   {
@@ -252,14 +972,104 @@ export const LatestCard = [
       shortLocation: "Singapore, Raffles",
       shortTime: "7j/7, 12:00 - 23:00",
       websiteLink: "www.iori.sg",
-      reviews: {
-        username: "Kenji Yamamoto",
-        location: "Singapore, Shinjuku",
-        stars: "5",
-        date: "20/11/2023",
-        description:
-          "A sophisticated dining experience that skillfully balances traditional Japanese flavors with contemporary techniques, resulting in beautifully plated dishes and complex taste profiles. Attention to detail in preparation and presentation is evident throughout the menu. Service is polished and knowledgeable, making it an ideal choice for those seeking refined fusion cuisine and an elevated dining occasion with memorable culinary craftsmanship.",
-      },
+      reviews: [
+        {
+          username: "Hiroshi Tanaka",
+          location: "Singapore, Shenton Way",
+          stars: 5,
+          date: "08/11/2023",
+          description:
+            "Outstanding ramen where broth depth, noodle texture, and topping quality are consistently excellent. Each bowl is balanced and comforting, reflecting skillful preparation and respect for tradition. The staff maintains a friendly and efficient service rhythm even during busy hours. For anyone who appreciates authentic Japanese ramen, this restaurant delivers a satisfying and memorable culinary experience every visit.",
+        },
+        {
+          username: "Amelia Wright",
+          location: "London, Soho",
+          stars: 5,
+          date: "22/10/2023",
+          description:
+            "One of the most comforting dining experiences I’ve had this year. The ambiance is warm, the food arrives beautifully plated, and every bite feels intentional. Their signature dishes are bold yet balanced, and the service team makes you feel genuinely welcome. I would happily return again and again.",
+        },
+        {
+          username: "Carlos Mendez",
+          location: "Barcelona, El Raval",
+          stars: 4,
+          date: "02/09/2023",
+          description:
+            "Fantastic flavors and generous portions. The menu offers a great variety, and everything we tried felt freshly prepared. While it can get crowded in the evenings, the atmosphere remains lively and enjoyable. A great place to share good food with friends.",
+        },
+        {
+          username: "Ayesha Rahman",
+          location: "Dhaka, Gulshan",
+          stars: 5,
+          date: "18/11/2023",
+          description:
+            "From the first bite to the last, the experience was delightful. The spices are perfectly layered, not overpowering, and the presentation is beautiful. The staff was attentive without being intrusive. This place has quickly become one of my favorites in the city.",
+        },
+        {
+          username: "Liam O’Connor",
+          location: "Dublin, Temple Bar",
+          stars: 4,
+          date: "05/10/2023",
+          description:
+            "A cozy spot with a great vibe and consistently tasty dishes. You can tell a lot of care goes into the kitchen. The service is friendly, and the menu has something for everyone. Perfect for a relaxed dinner after a long day.",
+        },
+        {
+          username: "Sofia Rossi",
+          location: "Milan, Brera",
+          stars: 5,
+          date: "27/11/2023",
+          description:
+            "An elegant dining experience that still feels warm and approachable. Every dish is thoughtfully crafted, with flavors that linger pleasantly. The attention to detail, from décor to service, makes this restaurant truly special.",
+        },
+        {
+          username: "Daniel Kim",
+          location: "Seoul, Hongdae",
+          stars: 5,
+          date: "13/09/2023",
+          description:
+            "Incredible balance of flavors and textures. The food feels modern yet respectful of tradition. The atmosphere is relaxed, and the staff is quick and kind. Easily one of the best places I’ve visited this year.",
+        },
+        {
+          username: "Priya Sharma",
+          location: "New Delhi, Connaught Place",
+          stars: 4,
+          date: "30/10/2023",
+          description:
+            "A wonderful place for both casual meals and special occasions. The food is consistently good, and the service is smooth even when the restaurant is busy. I especially loved the chef’s specials.",
+        },
+        {
+          username: "Noah Peterson",
+          location: "Austin, Texas",
+          stars: 5,
+          date: "15/11/2023",
+          description:
+            "This place nails comfort food with a modern twist. Everything tasted fresh, and the portions were just right. The staff was friendly and made the whole experience even better. Highly recommended.",
+        },
+        {
+          username: "Fatima Al-Zahra",
+          location: "Dubai, Jumeirah",
+          stars: 5,
+          date: "09/12/2023",
+          description:
+            "Absolutely stunning food and atmosphere. Each dish is flavorful, well-presented, and memorable. The service team goes above and beyond to ensure a wonderful dining experience.",
+        },
+        {
+          username: "Lucas Martin",
+          location: "Paris, Le Marais",
+          stars: 4,
+          date: "19/09/2023",
+          description:
+            "Charming ambiance and delicious food. The flavors are subtle yet rich, and the menu feels thoughtfully curated. A great place to unwind and enjoy a quality meal.",
+        },
+        {
+          username: "Mei Chen",
+          location: "Taipei, Xinyi",
+          stars: 5,
+          date: "01/12/2023",
+          description:
+            "Every visit feels special. The food is consistently excellent, with beautiful presentation and deep flavors. The staff is warm and attentive, making this a place I always recommend to friends.",
+        },
+      ],
     },
   },
   {
@@ -281,14 +1091,104 @@ export const LatestCard = [
       shortLocation: "Singapore, Tiong Bahru",
       shortTime: "7j/7, 10:00 - 21:00",
       websiteLink: "www.ngalley.sg",
-      reviews: {
-        username: "Amara Okafor",
-        location: "Singapore, Bedok",
-        stars: "4",
-        date: "17/10/2023",
-        description:
-          "A vibrant and creative menu that explores the richness of African cuisine with bold flavors and imaginative presentations. The dishes are thoughtfully composed and often surprising in their combinations, offering diners a fresh perspective on traditional ingredients. Knowledgeable staff and a welcoming atmosphere enhance the experience, making it a compelling choice for adventurous food lovers seeking something truly distinctive.",
-      },
+      reviews: [
+        {
+          username: "Hiroshi Tanaka",
+          location: "Singapore, Shenton Way",
+          stars: 5,
+          date: "08/11/2023",
+          description:
+            "Outstanding ramen where broth depth, noodle texture, and topping quality are consistently excellent. Each bowl is balanced and comforting, reflecting skillful preparation and respect for tradition. The staff maintains a friendly and efficient service rhythm even during busy hours. For anyone who appreciates authentic Japanese ramen, this restaurant delivers a satisfying and memorable culinary experience every visit.",
+        },
+        {
+          username: "Amelia Wright",
+          location: "London, Soho",
+          stars: 5,
+          date: "22/10/2023",
+          description:
+            "One of the most comforting dining experiences I’ve had this year. The ambiance is warm, the food arrives beautifully plated, and every bite feels intentional. Their signature dishes are bold yet balanced, and the service team makes you feel genuinely welcome. I would happily return again and again.",
+        },
+        {
+          username: "Carlos Mendez",
+          location: "Barcelona, El Raval",
+          stars: 4,
+          date: "02/09/2023",
+          description:
+            "Fantastic flavors and generous portions. The menu offers a great variety, and everything we tried felt freshly prepared. While it can get crowded in the evenings, the atmosphere remains lively and enjoyable. A great place to share good food with friends.",
+        },
+        {
+          username: "Ayesha Rahman",
+          location: "Dhaka, Gulshan",
+          stars: 5,
+          date: "18/11/2023",
+          description:
+            "From the first bite to the last, the experience was delightful. The spices are perfectly layered, not overpowering, and the presentation is beautiful. The staff was attentive without being intrusive. This place has quickly become one of my favorites in the city.",
+        },
+        {
+          username: "Liam O’Connor",
+          location: "Dublin, Temple Bar",
+          stars: 4,
+          date: "05/10/2023",
+          description:
+            "A cozy spot with a great vibe and consistently tasty dishes. You can tell a lot of care goes into the kitchen. The service is friendly, and the menu has something for everyone. Perfect for a relaxed dinner after a long day.",
+        },
+        {
+          username: "Sofia Rossi",
+          location: "Milan, Brera",
+          stars: 5,
+          date: "27/11/2023",
+          description:
+            "An elegant dining experience that still feels warm and approachable. Every dish is thoughtfully crafted, with flavors that linger pleasantly. The attention to detail, from décor to service, makes this restaurant truly special.",
+        },
+        {
+          username: "Daniel Kim",
+          location: "Seoul, Hongdae",
+          stars: 5,
+          date: "13/09/2023",
+          description:
+            "Incredible balance of flavors and textures. The food feels modern yet respectful of tradition. The atmosphere is relaxed, and the staff is quick and kind. Easily one of the best places I’ve visited this year.",
+        },
+        {
+          username: "Priya Sharma",
+          location: "New Delhi, Connaught Place",
+          stars: 4,
+          date: "30/10/2023",
+          description:
+            "A wonderful place for both casual meals and special occasions. The food is consistently good, and the service is smooth even when the restaurant is busy. I especially loved the chef’s specials.",
+        },
+        {
+          username: "Noah Peterson",
+          location: "Austin, Texas",
+          stars: 5,
+          date: "15/11/2023",
+          description:
+            "This place nails comfort food with a modern twist. Everything tasted fresh, and the portions were just right. The staff was friendly and made the whole experience even better. Highly recommended.",
+        },
+        {
+          username: "Fatima Al-Zahra",
+          location: "Dubai, Jumeirah",
+          stars: 5,
+          date: "09/12/2023",
+          description:
+            "Absolutely stunning food and atmosphere. Each dish is flavorful, well-presented, and memorable. The service team goes above and beyond to ensure a wonderful dining experience.",
+        },
+        {
+          username: "Lucas Martin",
+          location: "Paris, Le Marais",
+          stars: 4,
+          date: "19/09/2023",
+          description:
+            "Charming ambiance and delicious food. The flavors are subtle yet rich, and the menu feels thoughtfully curated. A great place to unwind and enjoy a quality meal.",
+        },
+        {
+          username: "Mei Chen",
+          location: "Taipei, Xinyi",
+          stars: 5,
+          date: "01/12/2023",
+          description:
+            "Every visit feels special. The food is consistently excellent, with beautiful presentation and deep flavors. The staff is warm and attentive, making this a place I always recommend to friends.",
+        },
+      ],
     },
   },
   {
@@ -310,14 +1210,104 @@ export const LatestCard = [
       shortLocation: "Singapore, Jiak Kim",
       shortTime: "7j/7, 17:00 - 23:00",
       websiteLink: "www.diagonal.sg",
-      reviews: {
-        username: "Lucas Chen",
-        location: "Singapore, Bugis",
-        stars: "5",
-        date: "08/11/2023",
-        description:
-          "Creative small plates and expertly mixed cocktails combine to create an engaging and intimate dining experience. The minimal aesthetic allows the culinary craftsmanship to shine, and the tasting-style format encourages exploration and conversation. Service is attentive and knowledgeable, enhancing the overall experience and making it an excellent choice for guests seeking experimental gastronomy and memorable, thoughtfully executed flavors.",
-      },
+      reviews: [
+        {
+          username: "Hiroshi Tanaka",
+          location: "Singapore, Shenton Way",
+          stars: 5,
+          date: "08/11/2023",
+          description:
+            "Outstanding ramen where broth depth, noodle texture, and topping quality are consistently excellent. Each bowl is balanced and comforting, reflecting skillful preparation and respect for tradition. The staff maintains a friendly and efficient service rhythm even during busy hours. For anyone who appreciates authentic Japanese ramen, this restaurant delivers a satisfying and memorable culinary experience every visit.",
+        },
+        {
+          username: "Amelia Wright",
+          location: "London, Soho",
+          stars: 5,
+          date: "22/10/2023",
+          description:
+            "One of the most comforting dining experiences I’ve had this year. The ambiance is warm, the food arrives beautifully plated, and every bite feels intentional. Their signature dishes are bold yet balanced, and the service team makes you feel genuinely welcome. I would happily return again and again.",
+        },
+        {
+          username: "Carlos Mendez",
+          location: "Barcelona, El Raval",
+          stars: 4,
+          date: "02/09/2023",
+          description:
+            "Fantastic flavors and generous portions. The menu offers a great variety, and everything we tried felt freshly prepared. While it can get crowded in the evenings, the atmosphere remains lively and enjoyable. A great place to share good food with friends.",
+        },
+        {
+          username: "Ayesha Rahman",
+          location: "Dhaka, Gulshan",
+          stars: 5,
+          date: "18/11/2023",
+          description:
+            "From the first bite to the last, the experience was delightful. The spices are perfectly layered, not overpowering, and the presentation is beautiful. The staff was attentive without being intrusive. This place has quickly become one of my favorites in the city.",
+        },
+        {
+          username: "Liam O’Connor",
+          location: "Dublin, Temple Bar",
+          stars: 4,
+          date: "05/10/2023",
+          description:
+            "A cozy spot with a great vibe and consistently tasty dishes. You can tell a lot of care goes into the kitchen. The service is friendly, and the menu has something for everyone. Perfect for a relaxed dinner after a long day.",
+        },
+        {
+          username: "Sofia Rossi",
+          location: "Milan, Brera",
+          stars: 5,
+          date: "27/11/2023",
+          description:
+            "An elegant dining experience that still feels warm and approachable. Every dish is thoughtfully crafted, with flavors that linger pleasantly. The attention to detail, from décor to service, makes this restaurant truly special.",
+        },
+        {
+          username: "Daniel Kim",
+          location: "Seoul, Hongdae",
+          stars: 5,
+          date: "13/09/2023",
+          description:
+            "Incredible balance of flavors and textures. The food feels modern yet respectful of tradition. The atmosphere is relaxed, and the staff is quick and kind. Easily one of the best places I’ve visited this year.",
+        },
+        {
+          username: "Priya Sharma",
+          location: "New Delhi, Connaught Place",
+          stars: 4,
+          date: "30/10/2023",
+          description:
+            "A wonderful place for both casual meals and special occasions. The food is consistently good, and the service is smooth even when the restaurant is busy. I especially loved the chef’s specials.",
+        },
+        {
+          username: "Noah Peterson",
+          location: "Austin, Texas",
+          stars: 5,
+          date: "15/11/2023",
+          description:
+            "This place nails comfort food with a modern twist. Everything tasted fresh, and the portions were just right. The staff was friendly and made the whole experience even better. Highly recommended.",
+        },
+        {
+          username: "Fatima Al-Zahra",
+          location: "Dubai, Jumeirah",
+          stars: 5,
+          date: "09/12/2023",
+          description:
+            "Absolutely stunning food and atmosphere. Each dish is flavorful, well-presented, and memorable. The service team goes above and beyond to ensure a wonderful dining experience.",
+        },
+        {
+          username: "Lucas Martin",
+          location: "Paris, Le Marais",
+          stars: 4,
+          date: "19/09/2023",
+          description:
+            "Charming ambiance and delicious food. The flavors are subtle yet rich, and the menu feels thoughtfully curated. A great place to unwind and enjoy a quality meal.",
+        },
+        {
+          username: "Mei Chen",
+          location: "Taipei, Xinyi",
+          stars: 5,
+          date: "01/12/2023",
+          description:
+            "Every visit feels special. The food is consistently excellent, with beautiful presentation and deep flavors. The staff is warm and attentive, making this a place I always recommend to friends.",
+        },
+      ],
     },
   },
   {
@@ -339,14 +1329,104 @@ export const LatestCard = [
       shortLocation: "Singapore, Takashimaya",
       shortTime: "7j/7, 11:00 - 22:00",
       websiteLink: "www.kitoko.sg",
-      reviews: {
-        username: "Priya Kapoor",
-        location: "Singapore, Orchard",
-        stars: "4",
-        date: "25/10/2023",
-        description:
-          "A robust Pan-Asian offering that highlights the diversity of flavors across the region, prepared with care and modern sensibilities. The extensive menu provides ample opportunities to sample different culinary styles, and the quality of ingredients and preparation generally impresses. It’s an excellent venue for groups or exploratory diners who appreciate variety, authenticity, and well-executed dishes.",
-      },
+      reviews: [
+        {
+          username: "Hiroshi Tanaka",
+          location: "Singapore, Shenton Way",
+          stars: 5,
+          date: "08/11/2023",
+          description:
+            "Outstanding ramen where broth depth, noodle texture, and topping quality are consistently excellent. Each bowl is balanced and comforting, reflecting skillful preparation and respect for tradition. The staff maintains a friendly and efficient service rhythm even during busy hours. For anyone who appreciates authentic Japanese ramen, this restaurant delivers a satisfying and memorable culinary experience every visit.",
+        },
+        {
+          username: "Amelia Wright",
+          location: "London, Soho",
+          stars: 5,
+          date: "22/10/2023",
+          description:
+            "One of the most comforting dining experiences I’ve had this year. The ambiance is warm, the food arrives beautifully plated, and every bite feels intentional. Their signature dishes are bold yet balanced, and the service team makes you feel genuinely welcome. I would happily return again and again.",
+        },
+        {
+          username: "Carlos Mendez",
+          location: "Barcelona, El Raval",
+          stars: 4,
+          date: "02/09/2023",
+          description:
+            "Fantastic flavors and generous portions. The menu offers a great variety, and everything we tried felt freshly prepared. While it can get crowded in the evenings, the atmosphere remains lively and enjoyable. A great place to share good food with friends.",
+        },
+        {
+          username: "Ayesha Rahman",
+          location: "Dhaka, Gulshan",
+          stars: 5,
+          date: "18/11/2023",
+          description:
+            "From the first bite to the last, the experience was delightful. The spices are perfectly layered, not overpowering, and the presentation is beautiful. The staff was attentive without being intrusive. This place has quickly become one of my favorites in the city.",
+        },
+        {
+          username: "Liam O’Connor",
+          location: "Dublin, Temple Bar",
+          stars: 4,
+          date: "05/10/2023",
+          description:
+            "A cozy spot with a great vibe and consistently tasty dishes. You can tell a lot of care goes into the kitchen. The service is friendly, and the menu has something for everyone. Perfect for a relaxed dinner after a long day.",
+        },
+        {
+          username: "Sofia Rossi",
+          location: "Milan, Brera",
+          stars: 5,
+          date: "27/11/2023",
+          description:
+            "An elegant dining experience that still feels warm and approachable. Every dish is thoughtfully crafted, with flavors that linger pleasantly. The attention to detail, from décor to service, makes this restaurant truly special.",
+        },
+        {
+          username: "Daniel Kim",
+          location: "Seoul, Hongdae",
+          stars: 5,
+          date: "13/09/2023",
+          description:
+            "Incredible balance of flavors and textures. The food feels modern yet respectful of tradition. The atmosphere is relaxed, and the staff is quick and kind. Easily one of the best places I’ve visited this year.",
+        },
+        {
+          username: "Priya Sharma",
+          location: "New Delhi, Connaught Place",
+          stars: 4,
+          date: "30/10/2023",
+          description:
+            "A wonderful place for both casual meals and special occasions. The food is consistently good, and the service is smooth even when the restaurant is busy. I especially loved the chef’s specials.",
+        },
+        {
+          username: "Noah Peterson",
+          location: "Austin, Texas",
+          stars: 5,
+          date: "15/11/2023",
+          description:
+            "This place nails comfort food with a modern twist. Everything tasted fresh, and the portions were just right. The staff was friendly and made the whole experience even better. Highly recommended.",
+        },
+        {
+          username: "Fatima Al-Zahra",
+          location: "Dubai, Jumeirah",
+          stars: 5,
+          date: "09/12/2023",
+          description:
+            "Absolutely stunning food and atmosphere. Each dish is flavorful, well-presented, and memorable. The service team goes above and beyond to ensure a wonderful dining experience.",
+        },
+        {
+          username: "Lucas Martin",
+          location: "Paris, Le Marais",
+          stars: 4,
+          date: "19/09/2023",
+          description:
+            "Charming ambiance and delicious food. The flavors are subtle yet rich, and the menu feels thoughtfully curated. A great place to unwind and enjoy a quality meal.",
+        },
+        {
+          username: "Mei Chen",
+          location: "Taipei, Xinyi",
+          stars: 5,
+          date: "01/12/2023",
+          description:
+            "Every visit feels special. The food is consistently excellent, with beautiful presentation and deep flavors. The staff is warm and attentive, making this a place I always recommend to friends.",
+        },
+      ],
     },
   },
 ];

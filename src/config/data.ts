@@ -113,9 +113,6 @@ export const findCards = [
   },
 ];
 
-
-
-
 // Recent Activities Data
 export const SRecentActivities = [
   {
@@ -440,4 +437,14 @@ export const galleryImages = [
   "/dynamic/bella_discover/img3.jpg",
   "/dynamic/bella_discover/img4.jpg",
   "/dynamic/bella_discover/img7.jpg",
+];
+export const reviews = [
+  {
+    userName: "Wei Jie",
+    location: "Singapore, Little india",
+    revieww: 4,
+    date: "29/11/2023",
+    description:
+      "The lorem ipsum is, in printing, a series of meaningless words used temporarily to calibrate a layout.The lorem ipsum is, in printing, a series of meaningless words used temporarily to calibrate a layout.",
+  },
 ];

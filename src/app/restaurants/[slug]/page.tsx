@@ -1,4 +1,3 @@
-
 // src/app/restaurants/[slug]/page.tsx
 import AlsoDiscover from "@/src/components/dynamic/alsoDiscover";
 import Hero from "@/src/components/dynamic/hero";
@@ -30,7 +29,7 @@ export default async function RestaurantDetails({
       <MagnificentPlace />
       <MoreInformation restaurant={restaurant} />
       <OverallRating restaurant={restaurant} />
-      <Review />
+      <Review restaurant={restaurant} />
       <AlsoDiscover />
       {/* {LatestCard.map((items,index)=>(
         <div key={index}>

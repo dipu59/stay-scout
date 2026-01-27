@@ -9,13 +9,15 @@ export default function MagnificentPlace() {
 
   return (
     <div className="max-w-[1100px] w-full mx-auto ">
-      <h1 className=" text-[#1E1E1E] dark:text-gray-200 font-lexend font-semibold text-2xl md:text-[34px] mb-[13px] ">
-        Discover our magnificent place in photos
-      </h1>
-      <p className="text-[#5E5E5E] dark:text-gray-400 font-roboto text-sm md:text-base px-[6px] max-w-[601px] mb-[30px] md:mb-[40px] ">
-        The lorem ipsum is, in printing, a series of meaningless words used
-        temporarily to calibrate a layout.The lorem ipsum is, in printing.
-      </p>
+      <div className="px-2 lg:px-0">
+        <h1 className=" text-[#1E1E1E] dark:text-gray-200 font-lexend font-semibold text-2xl md:text-[34px] mb-[13px] ">
+          Discover our magnificent place in photos
+        </h1>
+        <p className="text-[#5E5E5E] dark:text-gray-400 font-roboto text-sm md:text-base px-[6px] max-w-[601px] mb-[30px] md:mb-[40px] ">
+          The lorem ipsum is, in printing, a series of meaningless words used
+          temporarily to calibrate a layout.The lorem ipsum is, in printing.
+        </p>
+      </div>
       <div className="grid gap-1 md:grid-cols-2 px-2 lg:px-0 ">
         <div
           onClick={() => {
