@@ -46,8 +46,7 @@ export const SunFilledIcon = ({
   </svg>
 );
 
-
-export const AllLink = (props:any) => (
+export const AllLink = (props: any) => (
   <svg
     width={26}
     height={23}
@@ -63,7 +62,6 @@ export const AllLink = (props:any) => (
     />
   </svg>
 );
-
 
 export const Restaurants = (props: any) => (
   <svg
@@ -140,7 +138,7 @@ export const Shopping = (props: any) => (
   </svg>
 );
 
-export const Car = (props:any) => (
+export const Car = (props: any) => (
   <svg
     width={23}
     height={20}
@@ -156,7 +154,7 @@ export const Car = (props:any) => (
   </svg>
 );
 
-export const Beauty = (props:any) => (
+export const Beauty = (props: any) => (
   <svg
     width={25}
     height={27}
@@ -238,7 +236,7 @@ export const Beauty = (props:any) => (
   </svg>
 );
 
-export const Park = (props:any) => (
+export const Park = (props: any) => (
   <svg
     width={25}
     height={27}
@@ -271,7 +269,7 @@ export const Park = (props:any) => (
   </svg>
 );
 
-export const museum = (props:any) => (
+export const museum = (props: any) => (
   <svg
     width={26}
     height={26}
@@ -371,14 +369,13 @@ export const Stars = ({ className = "" }: { className?: string }) => (
   </svg>
 );
 
-export const DropdownIcon = (props:any) => (
+export const DropdownIcon = (props: any) => (
   <svg
     width={19}
     height={17}
     viewBox="0 0 19 17"
     fill="none"
     xmlns="http://www.w3.org/2000/svg"
-    
     {...props}
   >
     <path
@@ -386,7 +383,7 @@ export const DropdownIcon = (props:any) => (
       fill="current"
     />
   </svg>
-); 
+);
 
 export const Menu = (props: any) => (
   <svg
@@ -511,7 +508,7 @@ export const Website = (props: any) => (
   </svg>
 );
 
-export const Facebook = (props: any) =>  (
+export const Facebook = (props: any) => (
   <svg
     width={29}
     height={29}
@@ -533,7 +530,7 @@ export const Facebook = (props: any) =>  (
     </defs>
   </svg>
 );
-export const Instagran = (props: any) =>  (
+export const Instagran = (props: any) => (
   <svg
     width={29}
     height={29}
@@ -825,6 +822,37 @@ export const RestIcon = (props: any) => (
       strokeWidth={2}
       strokeLinecap="round"
       strokeLinejoin="round"
+    />
+  </svg>
+);
+
+export const LocationIcon = (props: any) => (
+  <svg
+    width={19}
+    height={24}
+    viewBox="0 0 19 24"
+    fill="none"
+    xmlns="http://www.w3.org/2000/svg"
+    {...props}
+  >
+    <path
+      d="M9.5 0C6.98136 0.00294898 4.56672 0.997261 2.78577 2.76482C1.00482 4.53238 0.00298142 6.92886 1.0107e-05 9.42857C-0.00300648 11.4713 0.669311 13.4587 1.91383 15.0857C1.91383 15.0857 2.17292 15.4243 2.21524 15.4731L9.5 24L16.7882 15.4689C16.8262 15.4234 17.0862 15.0857 17.0862 15.0857L17.087 15.0831C18.3309 13.4568 19.0029 11.4704 19 9.42857C18.997 6.92886 17.9952 4.53238 16.2142 2.76482C14.4333 0.997261 12.0186 0.00294898 9.5 0ZM9.5 12.8571C8.81676 12.8571 8.14886 12.6561 7.58076 12.2793C7.01266 11.9026 6.56989 11.3671 6.30842 10.7406C6.04695 10.1141 5.97854 9.42477 6.11184 8.75969C6.24513 8.09461 6.57414 7.4837 7.05727 7.00421C7.5404 6.52471 8.15594 6.19817 8.82605 6.06588C9.49617 5.93359 10.1908 6.00148 10.822 6.26098C11.4532 6.52048 11.9928 6.95993 12.3723 7.52376C12.7519 8.08759 12.9545 8.75046 12.9545 9.42857C12.9534 10.3375 12.5891 11.2089 11.9415 11.8517C11.2939 12.4944 10.4159 12.856 9.5 12.8571Z"
+      fill="current"
+    />
+  </svg>
+);
+export const ClockIcon = (props: any) => (
+  <svg
+    width={20}
+    height={20}
+    viewBox="0 0 20 20"
+    fill="none"
+    xmlns="http://www.w3.org/2000/svg"
+    {...props}
+  >
+    <path
+      d="M10 0C4.5 0 0 4.5 0 10C0 15.5 4.5 20 10 20C15.5 20 20 15.5 20 10C20 4.5 15.5 0 10 0ZM14.2 14.2L9 11V5H10.5V10.2L15 12.9L14.2 14.2Z"
+      fill="white"
     />
   </svg>
 );

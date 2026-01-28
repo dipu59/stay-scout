@@ -37,12 +37,9 @@ export default function LatestTrands({ data }: Props) {
               />
             </div>
             <div className="flex flex-col justify-center items-start max-w-[280px] px-1.5 md:px-2 lg:px-0 mx-auto mt-3 w-full">
-              <Link href={`/restaurants/${items.slug}`}>
-                {" "}
                 <h2 className="font-roboto font-medium md:font-semibold text-[#232323] text-lg md:text-xl lg:text-[22px] dark:text-[#feffff] ">
                   {items.title}
                 </h2>
-              </Link>
               <p className="font-roboto text-sm lg:text-base text-[#8F8F8F] mt-[4px] md:mt-[6px] mb-[15px] md:mb-[27px] line-clamp-2 lg:line-clamp-3 dark:group-hover:text-[#b6aeae] transition-all delay-150 duration-300 ">
                 {items.description}
               </p>

@@ -27,6 +27,7 @@ export default function GalleryModal({
       onOpenChange={onClose}
       size="5xl"
       backdrop="blur"
+      className="bg-black"
       motionProps={{
         initial: { scale: 0.9, opacity: 0 },
         animate: { scale: 1, opacity: 1 },

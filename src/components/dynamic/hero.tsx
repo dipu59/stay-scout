@@ -1,6 +1,6 @@
 import Link from "next/link";
 import React from "react";
-import { Stars } from "../icons";
+import { ClockIcon, LocationIcon, Stars } from "../icons";
 import { RatingStars } from "../star";
 import { Clock3, LocateIcon } from "lucide-react";
 import { LatestCard } from "@/src/restrurentDB/data";
@@ -67,13 +67,13 @@ export default function Hero({ restaurant }: HeroProps) {
           </p>
 
           <div className="flex gap-2 items-center mb-[20px] md:mb-[37px] mt-[65px]">
-            <LocateIcon />
+            <LocationIcon className="fill-white" />
             <span className="font-roboto text-white text-sm md:text-base ">
               {restaurant.dynamic.location}
             </span>
           </div>
           <div className="flex gap-2 items-center">
-            <Clock3 />
+            <ClockIcon className="" />
             <span className="font-roboto text-white text-sm md:text-base ">
               {restaurant.dynamic.time}
             </span>

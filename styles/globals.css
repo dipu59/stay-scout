@@ -17,3 +17,95 @@
 .gradient{
     background-image: linear-gradient(90deg, rgba(16, 16, 16, 0.77) 0.12%, rgba(16, 16, 16, 0.515625) 45.88%, rgba(16, 16, 16, 0) 94.72%);
 }
+
+/* ================= GLOBAL ================= */
+* {
+    scrollbar-width: thin;
+    scrollbar-color: #7c3aed #020617;
+}
+
+/* ================= THEME ================= */
+
+[data-theme="dark"] {
+    --track: #020617;
+    --border: rgba(255, 255, 255, 0.08);
+    --glow: rgba(124, 58, 237, 0.7);
+    --thumb-main: linear-gradient(180deg,
+            rgba(124, 58, 237, 0.85),
+            rgba(34, 211, 238, 0.85));
+    --thumb-glass: linear-gradient(180deg,
+            rgba(255, 255, 255, 0.35),
+            rgba(255, 255, 255, 0.05));
+}
+
+[data-theme="light"] {
+    --track: #f9fbff;
+    /* almost white */
+    --border: rgba(0, 0, 0, 0.06);
+    --glow: rgba(99, 102, 241, 0.35);
+
+    --thumb-main: linear-gradient(180deg,
+            rgba(168, 139, 255, 0.75),
+            /* soft lavender */
+            rgba(125, 211, 252, 0.75)
+            /* sky blue */
+        );
+
+    --thumb-glass: linear-gradient(180deg,
+            rgba(255, 255, 255, 0.75),
+            rgba(255, 255, 255, 0.35));
+}
+
+/* ================= SCROLLBAR ================= */
+
+::-webkit-scrollbar {
+    width: 14px;
+}
+
+::-webkit-scrollbar-track {
+    background: var(--track);
+    border-radius: 12px;
+    margin-block: 6px;
+}
+
+/* ===== GLASS + ARROW STYLE THUMB ===== */
+::-webkit-scrollbar-thumb {
+    background:
+        var(--thumb-glass),
+        var(--thumb-main);
+    backdrop-filter: blur(6px);
+    -webkit-backdrop-filter: blur(6px);
+
+    border-radius: 16px;
+    border: 2px solid var(--border);
+
+    /* Arrow / scroll trigger shape */
+    clip-path: polygon(50% 0%,
+            100% 14%,
+            100% 86%,
+            50% 100%,
+            0% 86%,
+            0% 14%);
+
+    transition: all 0.35s ease;
+}
+
+/* ===== HOVER  ===== */
+::-webkit-scrollbar-thumb:hover {
+    box-shadow:
+        0 0 14px var(--glow),
+        inset 0 0 10px rgba(255, 255, 255, 0.25);
+    transform: scale(1.06);
+}
+
+/* ===== ACTIVE PRESS ===== */
+::-webkit-scrollbar-thumb:active {
+    box-shadow:
+        0 0 20px var(--glow),
+        inset 0 0 14px rgba(255, 255, 255, 0.35);
+}
+
+/* Corner fix */
+::-webkit-scrollbar-corner {
+    background: transparent;
+}

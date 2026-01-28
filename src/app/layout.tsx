@@ -36,7 +36,7 @@ export default function RootLayout({
   return (
     <html suppressHydrationWarning lang="en">
       <head />
-      <body
+      <body 
         className={clsx(
           " bg-white dark:bg-[#010409] overflow-x-hidden",
           fontSans.variable,
